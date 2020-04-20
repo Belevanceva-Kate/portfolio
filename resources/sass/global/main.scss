@@ -1,0 +1,35 @@
+@import './variables';
+@import './mixins';
+@import './fonts';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 16px/1 $font-primary;
+    overflow-x: hidden;
+    background: $color-background-primary;
+    background: linear-gradient(120deg, $color-background-primary 50%, $color-background-secondary 50%);
+}
+
+a, button, input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.main {
+    padding: 120px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
