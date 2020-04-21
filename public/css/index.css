@@ -119,6 +119,7 @@ a {
 .page {
   position: relative;
   background-color: #ededed;
+  padding: 20px;
 }
 
 .page:before {
