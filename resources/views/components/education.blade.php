@@ -1,50 +1,19 @@
-<div class="education">
-    <ul class="education__list">
-        @if (Lang::has('education.master.name'))
-            <li class="education__item">
-                @if (Lang::has('education.master.date'))
-                    <time class="education_date">{{ Lang::get('education.master.date') }}</time>
+@if(!empty($education))
+    <div class="education">
+        <ul class="education__list">
+            @foreach($education as $item)
+                @if (!empty(trans('education.' . $item . '.name')))
+                    <li class="education__item">
+                        @if (!empty(trans('education.' . $item . '.date')))
+                            <time class="education_date">{{ __('education.' . $item . '.date') }}</time>
+                        @endif
+                        <p class="education__name">{{ __('education.' . $item . '.name') }}</p>
+                        @if (!empty(trans('education.' . $item . '.info')))
+                            <p class="education__info">{{ __('education.' . $item . '.info') }}</p>
+                        @endif
+                    </li>
                 @endif
-                <p class="education__name">{{ Lang::get('education.master.name') }}</p>
-                @if (Lang::has('education.master.info'))
-                    <p class="education__info">{{ Lang::get('education.master.info') }}</p>
-                @endif
-            </li>
-        @endif
-
-        @if (Lang::has('education.bachelor.name'))
-            <li class="education__item">
-                @if (Lang::has('education.bachelor.date'))
-                    <time class="education_date">{{ Lang::get('education.bachelor.date') }}</time>
-                @endif
-                <p class="education__name">{{ Lang::get('education.bachelor.name') }}</p>
-                @if (Lang::has('education.bachelor.info'))
-                    <p class="education__info">{{ Lang::get('education.bachelor.info') }}</p>
-                @endif
-            </li>
-        @endif
-
-        @if (Lang::has('education.school.name'))
-            <li class="education__item">
-                @if (Lang::has('education.school.date') && !empty(Lang::get('education.school.date')))
-                    <time class="education_date">{{ Lang::get('education.school.date') }}</time>
-                @endif
-                <p class="education__name">{{ Lang::get('education.school.name') }}</p>
-                @if (Lang::has('education.school.info') && !empty(Lang::get('education.school.info')))
-                    <p class="education__info">{{ Lang::get('education.school.info') }}</p>
-                @endif
-            </li>
-        @endif
-
-
-{{--            @if (!empty(__('education.master.name')))--}}
-{{--                <p class="education__date">{{ __('education.master.name') }}</p>--}}
-{{--            @endif--}}
-
-{{--            @if (Lang::has('education.master.name'))--}}
-{{--                <p class="education__date">{{ Lang::get('education.master.name') }}</p>--}}
-{{--            @else--}}
-{{--                <p class="education__date">none</p>--}}
-{{--            @endif--}}
-    </ul>
-</div>
+            @endforeach
+        </ul>
+    </div>
+@endif

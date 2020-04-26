@@ -15,6 +15,12 @@ class IndexController extends Controller
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function display(Request $request) {
+
+        $education = ['master', 'bachelor', 'school'];
+
+        $this->assign('education', $education);
+
+
         return view('pages.index');
     }
 }
