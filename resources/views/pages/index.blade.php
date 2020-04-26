@@ -4,6 +4,12 @@
     {{--    @include('components.back-action', ['backURL' => '/orders'])--}}
     {{--    @include('components.decor', ['backURL' => '/orders'])--}}
 
+    <div class="lang">
+        <a href="locale/en">en</a>
+        <a href="locale/ru">ru</a>
+        <a href="locale/ua">ua</a>
+    </div>
+
     <div class="page" style="height: 500px;">
         <div class="page__header">
             <h1 class="page__heading">Kateryna Bielievantseva</h1>

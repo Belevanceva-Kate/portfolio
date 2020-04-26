@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'IndexController@display');
+
+Route::get('locale/{locale}', 'LocalizationController@update_locale');
