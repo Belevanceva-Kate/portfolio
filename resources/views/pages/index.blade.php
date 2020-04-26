@@ -11,12 +11,12 @@
             <div class="page__column page__column--thinner">
                 @include('components.contacts')
                 @include('components.education')
-                <div class="expertise"></div>
+                @include('components.expertise')
             </div>
             <div class="page__column page__column--wider">
-                <div class="profile"></div>
-                <div class="experience"></div>
-                <div class="info"></div>
+                @include('components.profile')
+                @include('components.experience')
+                @include('components.info')
             </div>
         </div>
     </div>
