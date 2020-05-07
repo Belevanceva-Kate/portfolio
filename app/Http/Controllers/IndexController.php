@@ -16,7 +16,7 @@ class IndexController extends Controller
      */
     public function display(Request $request) {
 
-        $contacts = ['phone', 'email'];
+        $contacts = ['phone', 'email', 'location', 'socials'];
         $education = ['master', 'bachelor', 'school'];
 
         $this->assign('contacts', $contacts);

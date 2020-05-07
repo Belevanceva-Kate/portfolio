@@ -1,84 +1,156 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotothin.woff2?72de91db358fdf015511e4c3c8bc607c) format("woff2"), url(/fonts/Robotothin.woff?a11d03f7bc9e68d84afdc5eea52ed121) format("woff"), url(/fonts/Robotothin.ttf?7faf23e11b3c2da59062fffc117e3a40) format("truetype");
+  src: url("/fonts/Roboto/Robotothin.woff2") format("woff2"), url("/fonts/Roboto/Robotothin.woff") format("woff"), url("/fonts/Roboto/Robotothin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotothinitalic.woff2?f31f315195d13a5a794c5e0ed65438e6) format("woff2"), url(/fonts/Robotothinitalic.woff?d48c130d0a1dec0e897f6c57ba7148a0) format("woff"), url(/fonts/Robotothinitalic.ttf?e482899c966d4c297da133e0d4c04909) format("truetype");
+  src: url("/fonts/Roboto/Robotothinitalic.woff2") format("woff2"), url("/fonts/Roboto/Robotothinitalic.woff") format("woff"), url("/fonts/Roboto/Robotothinitalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotolight.woff2?38e1ed9a9ee49d755d20226b0d66588c) format("woff2"), url(/fonts/Robotolight.woff?611ac98371c2d77c377041e1a0fd87dc) format("woff"), url(/fonts/Robotolight.ttf?63d6f579b0db1fc75cc977a0539ce45f) format("truetype");
+  src: url("/fonts/Roboto/Robotolight.woff2") format("woff2"), url("/fonts/Roboto/Robotolight.woff") format("woff"), url("/fonts/Roboto/Robotolight.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotolightitalic.woff2?90c562ab5ca2fa27520844b5e709206f) format("woff2"), url(/fonts/Robotolightitalic.woff?692f9938bbcd797c0599e41538368dfe) format("woff"), url(/fonts/Robotolightitalic.ttf?4561dd5b317bba53c6e393111cdd3f9a) format("truetype");
+  src: url("/fonts/Roboto/Robotolightitalic.woff2") format("woff2"), url("/fonts/Roboto/Robotolightitalic.woff") format("woff"), url("/fonts/Roboto/Robotolightitalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Roboto.woff2?69eee0b43d46be3ad91ef75a76ea3959) format("woff2"), url(/fonts/Roboto.woff?58bf8e0bd1dd213bf745e9d748caf175) format("woff"), url(/fonts/Roboto.ttf?c613ca81d36649b260700f3335d8f579) format("truetype");
+  src: url("/fonts/Roboto/Roboto.woff2") format("woff2"), url("/fonts/Roboto/Roboto.woff") format("woff"), url("/fonts/Roboto/Roboto.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotoitalic.woff2?116990107af9b54f0abe3648f2db1774) format("woff2"), url(/fonts/Robotoitalic.woff?3dccb57171def8aca9321a5afa5df994) format("woff"), url(/fonts/Robotoitalic.ttf?3a40d393bd1e3a1c46d8b838f354ae27) format("truetype");
+  src: url("/fonts/Roboto/Robotoitalic.woff2") format("woff2"), url("/fonts/Roboto/Robotoitalic.woff") format("woff"), url("/fonts/Roboto/Robotoitalic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotomedium.woff2?4a34361b26e9896ea1b5065708f8daea) format("woff2"), url(/fonts/Robotomedium.woff?6422eac71f54ee5cd007dcf46fc0d22d) format("woff"), url(/fonts/Robotomedium.ttf?38aa81d461c299fa9f0cb27726401996) format("truetype");
+  src: url("/fonts/Roboto/Robotomedium.woff2") format("woff2"), url("/fonts/Roboto/Robotomedium.woff") format("woff"), url("/fonts/Roboto/Robotomedium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotomediumitalic.woff2?305c37adc3b5f34c635383431bc754a9) format("woff2"), url(/fonts/Robotomediumitalic.woff?05f1613de1977f7ee8e426cd28527305) format("woff"), url(/fonts/Robotomediumitalic.ttf?f5cbcf648f526a17e014861e26ecfa8c) format("truetype");
+  src: url("/fonts/Roboto/Robotomediumitalic.woff2") format("woff2"), url("/fonts/Roboto/Robotomediumitalic.woff") format("woff"), url("/fonts/Roboto/Robotomediumitalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotobold.woff2?15a913e1228cca9b1247b373bdf27e55) format("woff2"), url(/fonts/Robotobold.woff?7bf74824d7a8b3c08fe5956f93e9ce2a) format("woff"), url(/fonts/Robotobold.ttf?1fc6a83d1e366dfe7babb690d33ba6fb) format("truetype");
+  src: url("/fonts/Roboto/Robotobold.woff2") format("woff2"), url("/fonts/Roboto/Robotobold.woff") format("woff"), url("/fonts/Roboto/Robotobold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotobolditalic.woff2?932c3a00377efeb798499be0f10678fb) format("woff2"), url(/fonts/Robotobolditalic.woff?795c4a46ab67d09f5294f9ea9848d30f) format("woff"), url(/fonts/Robotobolditalic.ttf?8ec9e467d2d18f977695635fac699c0b) format("truetype");
+  src: url("/fonts/Roboto/Robotobolditalic.woff2") format("woff2"), url("/fonts/Roboto/Robotobolditalic.woff") format("woff"), url("/fonts/Roboto/Robotobolditalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotoblack.woff2?202f9d5222c18d3d3d035035a8c93725) format("woff2"), url(/fonts/Robotoblack.woff?8a7ab9f2be329b76881a7cb798f9cc38) format("woff"), url(/fonts/Robotoblack.ttf?bf7b513ace1a2ac0dbc6d95d2dcef261) format("truetype");
+  src: url("/fonts/Roboto/Robotoblack.woff2") format("woff2"), url("/fonts/Roboto/Robotoblack.woff") format("woff"), url("/fonts/Roboto/Robotoblack.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Robotoblackitalic.woff2?425a3fc56be811efa1855dc01829ddc1) format("woff2"), url(/fonts/Robotoblackitalic.woff?548e05d306b97161a5f2ceacff0ebf99) format("woff"), url(/fonts/Robotoblackitalic.ttf?ca9c9a75a346b1dcc28d1926bf0cecaf) format("truetype");
+  src: url("/fonts/Roboto/Robotoblackitalic.woff2") format("woff2"), url("/fonts/Roboto/Robotoblackitalic.woff") format("woff"), url("/fonts/Roboto/Robotoblackitalic.ttf") format("truetype");
   font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramondlight.woff2") format("woff2"), url("/fonts/CormorantGaramond/Cormorantgaramondlight.woff") format("woff"), url("/fonts/CormorantGaramond/Cormorantgaramondlight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramondlightitalic.woff2") format("woff2"), url("/fonts/CormorantGaramond/Cormorantgaramondlightitalic.woff") format("woff"), url("/fonts/CormorantGaramond/Cormorantgaramondlightitalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramond.woff2") format("woff2"), url("/fonts/CormorantGaramond/CormorantGaramond.woff") format("woff"), url("/fonts/CormorantGaramond/CormorantGaramond.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramonditalic.woff2") format("woff2"), url("/fonts/CormorantGaramond/CormorantGaramonditalic.woff") format("woff"), url("/fonts/CormorantGaramond/CormorantGaramonditalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramondbook.woff2") format("woff2"), url("/fonts/CormorantGaramond/Cormorantgaramondbook.woff") format("woff"), url("/fonts/CormorantGaramond/Cormorantgaramondbook.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Cormorantgaramondbookitalic.woff2") format("woff2"), url("/fonts/CormorantGaramond/Cormorantgaramondbookitalic.woff") format("woff"), url("/fonts/CormorantGaramond/Cormorantgaramondbookitalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Сormorantgaramondsemibold.woff2") format("woff2"), url("/fonts/CormorantGaramond/Сormorantgaramondsemibold.woff") format("woff"), url("/fonts/CormorantGaramond/Сormorantgaramondsemibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Сormorantgaramondsemibolditalic.woff2") format("woff2"), url("/fonts/CormorantGaramond/Сormorantgaramondsemibolditalic.woff") format("woff"), url("/fonts/CormorantGaramond/Сormorantgaramondsemibolditalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Сormorantgaramondbold.woff2") format("woff2"), url("/fonts/CormorantGaramond/Сormorantgaramondbold.woff") format("woff"), url("/fonts/CormorantGaramond/Сormorantgaramondbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("/fonts/CormorantGaramond/Сormorantgaramondbolditalic.woff2") format("woff2"), url("/fonts/CormorantGaramond/Сormorantgaramondbolditalic.woff") format("woff"), url("/fonts/CormorantGaramond/Сormorantgaramondbolditalic.ttf") format("truetype");
+  font-weight: 700;
   font-style: italic;
 }
 
@@ -116,6 +188,43 @@ a {
   padding: 0 20px;
 }
 
+.section__title {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.section__content {
+  margin-top: 20px;
+}
+
+.localization {
+  margin-bottom: 10px;
+}
+
+.localization__list {
+  text-align: right;
+}
+
+.localization__item {
+  display: inline-block;
+}
+
+.localization__item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.localization__link {
+  display: inline-block;
+}
+
+.localization__link svg {
+  width: 30px;
+  height: 30px;
+}
+
 .page {
   position: relative;
   background-color: #ededed;
@@ -134,8 +243,124 @@ a {
   z-index: -1;
 }
 
+.page__main {
+  display: flex;
+  margin-top: 40px;
+}
+
+.page__column--thinner {
+  width: 35%;
+  padding-right: 20px;
+  border-right: 2px solid #e0e0e0;
+}
+
+.page__column--wider {
+  padding-left: 20px;
+}
+
+.page__column .section:not(:first-of-type) {
+  padding-top: 30px;
+}
+
+.page__column .section:not(:last-of-type) {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.header {
+  padding: 70px 50px;
+  background-color: #e7e7e7;
+  text-align: center;
+}
+
+.header__title {
+  font: 400 40px/1 "Cormorant Garamond", Arial, sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header__title:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 20%;
+  height: 1px;
+  background-color: #a5a5a5;
+}
+
+.header__subtitle {
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.contacts__item {
+  list-style-type: none;
+}
+
+.contacts__item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.contacts__link {
+  display: inline-block;
+  color: #1f1f1f;
+  transition: color 0.2s ease-in-out;
+}
+
+.contacts__link:hover,
+.contacts__link:focus,
+.contacts__link:active {
+  color: #6c6c6c;
+}
+
+.contacts__link:hover .contacts__image path,
+.contacts__link:focus .contacts__image path,
+.contacts__link:active .contacts__image path {
+  fill: #6c6c6c;
+}
+
+.contacts__image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 .contacts__image svg {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+.contacts__image svg path {
+  fill: #1f1f1f;
+  transition: fill 0.2s ease-in-out;
+}
+
+.contacts__title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.education__item {
+  list-style-type: none;
+}
+
+.education__item:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.education__name {
+  margin-bottom: 10px;
+}
+
+.education__info {
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 

@@ -14,12 +14,24 @@ return [
         'image' => 'icons.contacts.email'
     ],
 
+    'location' => [
+        'title' => 'Mariupol, Ukraine',
+        'link'  => 'https://goo.gl/maps/ortXvBzSHPDi7DBA6',
+        'image' => 'icons.contacts.location'
+    ],
+
     'socials' => [
 
         'linkedin' => [
             'title' => 'Kate Bielievantseva',
             'link'  => 'https://linkedin.com',
             'image' => 'icons.contacts.linkedin'
+        ],
+
+        'telegram' => [
+            'title' => '@Ariel_Macedonian',
+            'link'  => 'https://t.me/Ariel_Macedonian',
+            'image' => 'icons.contacts.telegram'
         ]
 
     ]

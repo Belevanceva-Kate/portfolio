@@ -1,8 +1,51 @@
 .contacts {
-    &__image {
-        svg {
-            width: 30px;
-            height: 30px;
+
+    &__item {
+        list-style-type: none;
+
+        &:not(:last-of-type) {
+            margin-bottom: 10px;
         }
+    }
+
+    &__link {
+        display: inline-block;
+        color: $color-link;
+        @include transition(color);
+        &:hover,
+        &:focus,
+        &:active {
+            color: lighten($color-link, 30%);
+
+            .contacts {
+
+                &__image {
+                    path {
+                        fill: lighten($color-link, 30%);
+                    }
+                }
+            }
+        }
+    }
+
+    &__image {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+
+        svg {
+            width: 20px;
+            height: 20px;
+
+            path {
+                fill: $color-link;
+                @include transition(fill);
+            }
+        }
+    }
+
+    &__title {
+        display: inline-block;
+        vertical-align: middle;
     }
 }

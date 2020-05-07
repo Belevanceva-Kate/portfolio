@@ -1,3 +1,3 @@
-<div class="expertise">
+<div class="expertise section">
 
 </div>

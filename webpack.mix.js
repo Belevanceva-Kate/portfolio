@@ -11,5 +11,7 @@ const mix = require('laravel-mix');
  |
  */
 
+// mix.config.fileLoaderDirs.fonts = 'fonts/Roboto';
+
 mix.js('resources/js/pages/index.js', 'public/js')
     .sass('resources/sass/pages/index.scss', 'public/css');

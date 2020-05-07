@@ -11,11 +11,13 @@
 body {
     font: 400 16px/1 $font-primary;
     overflow-x: hidden;
-    background: $color-background-primary;
-    background: linear-gradient(120deg, $color-background-primary 50%, $color-background-secondary 50%);
+    background: #e0e0e0;
+    background: linear-gradient(120deg, #e0e0e0 50%, #bbc6c7 50%);
 }
 
-a, button, input {
+a,
+button,
+input {
     outline: none;
 }
 
@@ -32,4 +34,19 @@ a {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.section {
+
+    &__title {
+        font-family: $font-primary;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    &__content {
+        margin-top: 20px;
+    }
 }

@@ -1,3 +1,3 @@
-<div class="info">
+<div class="info section">
 
 </div>

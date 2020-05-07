@@ -5,7 +5,7 @@
 
     @include('components.localization')
 
-    <div class="page" style="height: 500px;">
+    <div class="page">
         @include('components.header')
         <div class="page__main">
             <div class="page__column page__column--thinner">
