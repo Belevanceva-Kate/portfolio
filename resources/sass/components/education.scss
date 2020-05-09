@@ -3,18 +3,24 @@
     &__item {
         list-style-type: none;
 
+        p {
+            &:not(:last-of-type) {
+                margin-bottom: 10px;
+            }
+        }
+
         &:not(:last-of-type) {
             margin-bottom: 20px;
         }
     }
 
-    &__name {
-        margin-bottom: 10px;
-    }
-
     &__info {
-        margin-bottom: 10px;
         font-weight: 600;
         text-transform: uppercase;
+    }
+
+    &__date {
+        display: block;
+        margin-top: 10px;
     }
 }
