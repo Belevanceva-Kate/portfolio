@@ -46,6 +46,11 @@ a {
         letter-spacing: 5px;
     }
 
+    &__subtitle {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
     &__content {
         margin-top: 20px;
     }

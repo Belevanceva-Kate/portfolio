@@ -17,6 +17,7 @@
                 @include('components.profile')
                 @include('components.experience')
                 @include('components.info')
+                @include('components.portfolio')
             </div>
         </div>
     </div>

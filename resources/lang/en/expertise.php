@@ -13,23 +13,27 @@ return [
 
     'title' => 'Expertise',
 
-    'frontend'  => [
-        [
-            'title'  => 'Front-End',
-            'list'   => [
-                'asd',
-                'asdasd',
-                'dfafdsfsdfwe'
+    'list' => [
+
+        'frontend'  => [
+            [
+                'title'  => 'Front-End',
+                'list'   => [
+                    'asd',
+                    'asdasd',
+                    'dfafdsfsdfwe'
+                ]
             ]
-        ]
-    ],
-    'backend'  => [
-        [
-            'title'  => 'Back-End',
-            'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
+        ],
+
+        'backend'  => [
+            [
+                'title'  => 'Back-End',
+                'list'   => [
+                    'wiohq',
+                    'wqihyiqwry',
+                    'sdlmwl'
+                ]
             ]
         ]
     ]

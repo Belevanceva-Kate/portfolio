@@ -14,18 +14,20 @@ return [
     'title' => 'Work Experience',
 
     'list'  => [
-        [
-            'position'  => 'position 1',
-            'company'   => 'company 1',
-            'description' => [
+
+        'foridev' => [
+            'position'      => 'position 1',
+            'company'       => 'company 1',
+            'description'   => [
                 'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1',
                 'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1'
             ]
         ],
-        [
-            'position'  => 'position 2',
-            'company'   => 'company 2',
-            'description' => [
+
+        'ohmycode' => [
+            'position'      => 'position 2',
+            'company'       => 'company 2',
+            'description'   => [
                 'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2',
                 'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2'
             ]

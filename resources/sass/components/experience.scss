@@ -1,0 +1,12 @@
+.experience {
+
+    &__item {
+        &:not(:last-of-type) {
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}

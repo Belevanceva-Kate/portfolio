@@ -16,11 +16,15 @@ class IndexController extends Controller
      */
     public function display(Request $request) {
 
-        $contacts = ['phone', 'email', 'location', 'socials'];
-        $education = ['master', 'bachelor', 'school'];
+        $contacts   = ['phone', 'email', 'location', 'socials'];
+        $education  = ['master', 'bachelor', 'school'];
+        $experience = ['foridev', 'ohmycode'];
+        $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $this->assign('contacts', $contacts);
         $this->assign('education', $education);
+        $this->assign('experience', $experience);
+        $this->assign('portfolio', $portfolio);
 
         return view('pages.index');
     }

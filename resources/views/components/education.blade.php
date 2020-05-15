@@ -11,7 +11,7 @@
                     <li class="education__item">
                         @if (Lang::has('education.list.' . $item . '.heading') &&
                             !empty(Lang::get('education.list.' . $item . '.heading')))
-                            <p class="education__info">{{ __('education.list.' . $item . '.heading') }}</p>
+                            <p class="education__info section__subtitle">{{ __('education.list.' . $item . '.heading') }}</p>
                         @endif
                         @if (Lang::has('education.list.' . $item . '.area') &&
                             !empty(Lang::get('education.list.' . $item . '.area')))
