@@ -1,0 +1,31 @@
+.portfolio {
+
+    &__item {
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        &:not(:last-of-type) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__title {
+
+    }
+
+    &__site {
+        display: block;
+        margin-bottom: 10px;
+        color: #CD5C5C;
+        @include transition(color);
+        //color: #581845;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: darken(#CD5C5C, 15%);
+        }
+    }
+}

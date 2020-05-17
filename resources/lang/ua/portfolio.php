@@ -11,29 +11,33 @@ return [
     |
     */
 
-    'title' => 'Portfolio',
+    'title' => 'Нещодавні проекти',
 
     'list'  => [
 
         'blendtopia' => [
-            'title'         => 'Blendtopia. Blend your smoothie',
+            'title'         => 'Blendtopia. Organic superfoods smoothies',
             'site_title'    => 'Blendtopia',
             'site_link'     => 'https://www.blendtopia.com',
             'description'   => [
-                'Smoothie',
-                'Front-End + Subscription Back-End. Box builder. Predefined and custom boxes'
+                'Це бізнес з продажу смузі. Вони порційні.',
+                'Замовлення можна здійснювати боксами, розмір яких 8, 12, 16 і 24 смузі. Кожен бокс можна просто купити, або "підписатися" на нього. Тобто можна отримувати їх кожні 1, 2, 4 або 6 тижнів.',
+                'Є кілька типів боксів: заздалегідь визначені та кастомні. Перший з них має вже готовий набір смузі за смаками і кількістю. Другий - дає можливість користувачу самому обрати скільки та які смаки він хоче купити.',
+                'Для цього проекту був створений унікальний дизайн та бокс-білдер. Була розроблена Front-End частина, а також Back-End, який допомагав плагіну підписок правильно інтерпретувати бокси.'
             ],
-            'tools'         => 'Shopify + Laravel'
+            'tools'         => 'Shopify,  Laravel, Subscriptions by ReCharge App'
         ],
 
         'codes' => [
-            'title'         => 'Codes',
-            'site_title'    => 'Codes',
+            'title'         => 'Selling Codes App',
+            'site_title'    => 'Foridev - #1 Selling Codes app',
             'site_link'     => 'https://shopify/apps',
             'description'   => [
-                'App for selling serial codes via shopify. After paid order customer receive the letter which contain code for every bought product and link of activation'
+                'Додаток, розроблий під платформу Shopify.',
+                'Він допомагає володарям онлайн магазинів реалізовувати серійні ключі. За допомогою додатку вони можуть закріплювати їх за якимось продуктом, а також зберігати мультимовні посилання для їх активації.',
+                'Наприклад, клієнт хоче купити серійний ключ для гри. Після здійснення оплати, йому на пошту приходить лист, в якому вказується продукт, серійний ключ до нього і посилання на активацію. Також він може переглянути цю інформацію в своїй особистому акаунті.'
             ],
-            'tools'         => 'Shopify + Laravel'
+            'tools'         => 'Shopify, Laravel'
         ],
 
         'cannago' => [

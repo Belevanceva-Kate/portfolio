@@ -377,3 +377,24 @@ a {
   margin-bottom: 10px;
 }
 
+.portfolio__item p {
+  margin-bottom: 10px;
+}
+
+.portfolio__item:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.portfolio__site {
+  display: block;
+  margin-bottom: 10px;
+  color: #CD5C5C;
+  transition: color 0.2s ease-in-out;
+}
+
+.portfolio__site:hover,
+.portfolio__site:focus,
+.portfolio__site:active {
+  color: #a93434;
+}
+

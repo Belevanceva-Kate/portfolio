@@ -16,7 +16,7 @@
             <div class="page__column page__column--wider">
                 @include('components.profile')
                 @include('components.experience')
-                @include('components.info')
+{{--                @include('components.info')--}}
                 @include('components.portfolio')
             </div>
         </div>

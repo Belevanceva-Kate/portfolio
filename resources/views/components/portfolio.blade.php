@@ -13,7 +13,8 @@
                     @if (Lang::has('portfolio.list.' . $item . '.site_title') &&
                         !empty(Lang::get('portfolio.list.' . $item . '.site_title')))
                         <a href="{{ __('portfolio.list.' . $item . '.site_link') }}"
-                           class="portfolio__site">
+                           class="portfolio__site"
+                           target="_blank">
                             {{ __('portfolio.list.' . $item . '.site_title') }}
                         </a>
                     @endif
