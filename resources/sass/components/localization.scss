@@ -1,5 +1,5 @@
 .localization {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
     &__list {
         text-align: right;
@@ -19,6 +19,18 @@
         svg {
             width: 30px;
             height: 30px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: $portrait-phone) {
+    .localization {
+        margin-bottom: 20px;
+
+        &__list {
+            text-align: center;
         }
     }
 }

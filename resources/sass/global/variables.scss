@@ -1,32 +1,25 @@
 //COLORS
 $color-background-main: #ededed;
-
-//$color-background-primary: #e0e0e0;
-//$color-background-secondary: #bbc6c7;
-
 $color-substrate: #f3d1c7;
-
 $color-split: #e0e0e0;
 
-//$color-text-heading: #040404;
-//$color-text-primary: #5e5e5e;
-//$color-text-secondary: #868686;
-
-//$color-text-primary: #161616;
-//$color-text-secondary: #637381;
-//$color-background: #fff;
-//$color-button: #3f4eae;
-$color-link: #1f1f1f;
+$color-text-primary: #000000;
+$color-link: #CD5C5C;
 
 //FONTS
 $font-primary: 'Roboto', Arial, sans-serif;
 $font-secondary: 'Cormorant Garamond', Arial, sans-serif;
 
+//HOVER
+$color-link-hover: darken($color-link, 15%);
+
+//MEDIA QUERIES
+$desktop: 1280px;
+$tablet: 992px;
+$landscape-phone: 768px;
+$portrait-phone: 576px;
+
 //OTHER
 //$border-radius: 3px;
 //$box-shadow: 0px 4px 24px $color-border;
 //$box-shadow: 0px 10px 25px 0 $color-border;
-
-//HOVER
-//$color-link-hover: #202e78;
-//$color-button-hover: #c4cdd5ad;

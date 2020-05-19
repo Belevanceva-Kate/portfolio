@@ -11,7 +11,7 @@
             <div class="page__column page__column--thinner">
                 @include('components.contacts')
                 @include('components.education')
-                @include('components.expertise')
+{{--                @include('components.expertise')--}}
             </div>
             <div class="page__column page__column--wider">
                 @include('components.profile')

@@ -31,3 +31,25 @@
         letter-spacing: 5px;
     }
 }
+
+
+
+@media screen and (max-width: $portrait-phone) {
+    .header {
+        padding: 15px;
+
+        &__title {
+            font-size: 20px;
+            font-weight: 500;
+
+            &:after {
+                bottom: -20px;
+            }
+        }
+
+        &__subtitle {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    }
+}

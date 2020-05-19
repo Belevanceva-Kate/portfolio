@@ -1,5 +1,10 @@
 @if(!empty($contacts))
     <div class="contacts section">
+
+        @if (Lang::has('contacts.title') && !empty(Lang::get('contacts.title')))
+            <h3 class="section__title">{{ __('contacts.title') }}</h3>
+        @endif
+
         <ul class="contacts__list">
             @foreach($contacts as $item)
                 @if($item != 'socials')

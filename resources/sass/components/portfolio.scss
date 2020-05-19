@@ -18,14 +18,23 @@
     &__site {
         display: block;
         margin-bottom: 10px;
-        color: #CD5C5C;
+        //color: #CD5C5C;
+        color: $color-link;
         @include transition(color);
         //color: #581845;
 
         &:hover,
         &:focus,
         &:active {
-            color: darken(#CD5C5C, 15%);
+            color: $color-link-hover;
         }
+    }
+}
+
+
+
+@media screen and (max-width: $landscape-phone) {
+    .portfolio {
+        padding-bottom: 30px;
     }
 }
