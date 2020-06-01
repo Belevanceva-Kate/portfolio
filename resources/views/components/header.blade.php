@@ -7,12 +7,15 @@
         </div>
         <div class="section__right">
             <div class="header__content">
-                @if (Lang::has('header.title') && !empty(Lang::get('header.title')))
-                    <h1 class="header__title">{{ __('header.title') }}</h1>
-                @endif
-                @if (Lang::has('header.subtitle') && !empty(Lang::get('header.subtitle')))
-                    <h2 class="header__subtitle">{{ __('header.subtitle') }}</h2>
-                @endif
+                <div class="header__main">
+                    @include('snippets.title')
+                    @if (Lang::has('header.content') && !empty(Lang::get('header.content')))
+                        <p class="header__info">{{ __('header.content') }}</p>
+                    @endif
+                </div>
+                <div class="header__contacts">
+
+                </div>
             </div>
         </div>
     </div>

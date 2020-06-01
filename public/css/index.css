@@ -315,3 +315,26 @@ body.dark-theme .theme-switcher svg path {
   width: 100%;
 }
 
+.header__info {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.main__title {
+  font-size: 2.625rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #F8BB10;
+  text-transform: uppercase;
+}
+
+.main__subtitle {
+  font-size: 2.625rem;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: lowercase;
+  margin-bottom: 5px;
+}
+

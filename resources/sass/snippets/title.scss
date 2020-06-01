@@ -1,0 +1,17 @@
+.main {
+    &__title {
+        font-size: 2.625rem;
+        font-weight: 700;
+        line-height: 1;
+        color: $color-accent-primary;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-size: 2.625rem;
+        font-weight: 300;
+        line-height: 1;
+        text-transform: lowercase;
+        margin-bottom: 5px;
+    }
+}

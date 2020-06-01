@@ -11,7 +11,10 @@ return [
     |
     */
 
-    'title'     => 'Екатерина Белеванцева',
-    'subtitle'  => 'Full-Stack Developer'
+//    'title'     => 'Екатерина Белеванцева',
+//    'subtitle'  => 'Full-Stack Developer'
 
+    'title'     => 'Белеванцева',
+    'subtitle'  => 'Екатерина',
+    'content'  => 'Full-Stack Developer'
 ];
