@@ -1,4 +1,4 @@
-<div class="expertise section">
+{{--<div class="expertise section">--}}
 
 
 
@@ -7,4 +7,4 @@
 {{--    Back-End technologies:--}}
 {{--    Node.js, PHP, Laravel, MySQL--}}
 
-</div>
+{{--</div>--}}

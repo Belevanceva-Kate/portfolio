@@ -1,23 +1,58 @@
-//COLORS
-$color-background-main: #ededed;
-$color-substrate: #f3d1c7;
-$color-split: #e0e0e0;
+// COLORS
 
-$color-text-primary: #000000;
-$color-link: #CD5C5C;
+// light theme
+$color-background-primary: #fff;
+$color-text-primary: #939393;
+$color-header-primary: #727272;
+$color-accent-primary: #F8BB10;
 
-//FONTS
-$font-primary: 'Roboto', Arial, sans-serif;
-$font-secondary: 'Cormorant Garamond', Arial, sans-serif;
+// dark theme
+$color-background-secondary: #2d2e2e;
+$color-text-secondary: #979899;
+$color-header-secondary: #a4a5a6;
+$color-accent-secondary: #e0a80d;
 
-//HOVER
-$color-link-hover: darken($color-link, 15%);
+// common
+$color-link: #F8BB10;
 
-//MEDIA QUERIES
+// FONTS
+$font-main: 'Lato', Arial, sans-serif;
+
+// HOVER
+
+// light theme
+$color-link-primary-hover: #e0a707;
+
+// dark theme
+$color-link-secondary-hover: #fefaee;
+
+// MEDIA QUERIES
 $desktop: 1280px;
 $tablet: 992px;
 $landscape-phone: 768px;
 $portrait-phone: 576px;
+
+
+////COLORS
+//$color-background-main: #ededed;
+//$color-substrate: #f3d1c7;
+//$color-split: #e0e0e0;
+//
+//$color-text-primary: #000000;
+//$color-link: #CD5C5C;
+//
+////FONTS
+//$font-primary: 'Roboto', Arial, sans-serif;
+//$font-secondary: 'Cormorant Garamond', Arial, sans-serif;
+//
+////HOVER
+//$color-link-hover: darken($color-link, 15%);
+//
+////MEDIA QUERIES
+//$desktop: 1280px;
+//$tablet: 992px;
+//$landscape-phone: 768px;
+//$portrait-phone: 576px;
 
 //OTHER
 //$border-radius: 3px;

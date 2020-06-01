@@ -2,8 +2,6 @@
 
 @section('main_content')
     <main class="main">
-        <div class="container">
-            @yield('content')
-        </div>
+        @yield('content')
     </main>
 @endsection

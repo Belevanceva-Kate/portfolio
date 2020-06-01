@@ -1,3 +1,3 @@
-<div class="info section">
+{{--<div class="info section">--}}
 
-</div>
+{{--</div>--}}

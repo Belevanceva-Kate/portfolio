@@ -12,6 +12,7 @@ return [
     */
 
     'title' => 'Recent Projects',
+    'show_details' => 'Show details',
 
     'list'  => [
 

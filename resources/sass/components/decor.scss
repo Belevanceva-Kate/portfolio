@@ -2,7 +2,8 @@
     position: relative;
     background-color: $color-background-main;
     padding: 20px;
-    box-shadow: 0px 0px 50px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+    //z-index: 1;
 
     &:before {
         content: '';
