@@ -3,10 +3,12 @@ window.$ = window.jQuery = require('jquery');
 
 import Base from '../Base.js';
 
-import Portfolio from '../components/Portfolio';
+// import Portfolio from '../components/Portfolio';
+import Settings from '../components/Settings';
 import ThemeSwitcher from '../components/ThemeSwitcher';
 
 new Base().call(() => {
-    new Portfolio();
+    // new Portfolio();
+    new Settings();
     new ThemeSwitcher();
 });

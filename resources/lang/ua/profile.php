@@ -11,7 +11,8 @@ return [
     |
     */
 
-    'title'     => 'Profile',
+    'title'     => 'Профайл',
+
     'content'   => [
         'test1',
         'jkwefwe ewjfbbwkeek wejfbbej ewjbf ejbfje',

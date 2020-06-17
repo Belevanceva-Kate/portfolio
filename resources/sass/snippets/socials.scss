@@ -1,0 +1,105 @@
+.socials {
+
+    &__list {
+
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-of-type) {
+            margin-right: 10px;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        padding: 6px;
+        background-color: #ededed;
+        border: 2px solid #ededed;
+        border-radius: 3px;
+        @include transition(background-color);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: transparent;
+
+            svg {
+                path {
+                    fill: $color-accent-primary;
+                }
+            }
+        }
+
+        svg {
+            display: block;
+            width: 22px;
+            height: 22px;
+
+            path {
+                fill: #c6c6c6;
+            }
+        }
+    }
+}
+
+.header {
+    &__content {
+        position: relative;
+
+        .socials {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+
+        .socials {
+
+            &__link {
+                background-color: $color-buttons-secondary;
+                border-color: $color-buttons-secondary;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    background-color: transparent;
+
+                    svg {
+                        path {
+                            fill: $color-accent-secondary;
+                        }
+                    }
+                }
+
+                svg {
+                    path {
+                        fill: #717273;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: $tablet) {
+    .header {
+        &__content {
+            .socials {
+                position: relative;
+                margin-top: 25px;
+            }
+        }
+    }
+}

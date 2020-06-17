@@ -5,12 +5,16 @@ $color-background-primary: #fff;
 $color-text-primary: #939393;
 $color-header-primary: #727272;
 $color-accent-primary: #F8BB10;
+$color-line-divider-primary: #ececec;
+$color-buttons-primary: #ededed;
 
 // dark theme
 $color-background-secondary: #2d2e2e;
 $color-text-secondary: #979899;
 $color-header-secondary: #a4a5a6;
 $color-accent-secondary: #e0a80d;
+$color-line-divider-secondary: #404242;
+$color-buttons-secondary: #3f4040;
 
 // common
 $color-link: #F8BB10;
@@ -31,6 +35,14 @@ $desktop: 1280px;
 $tablet: 992px;
 $landscape-phone: 768px;
 $portrait-phone: 576px;
+
+//OTHER
+
+// light theme
+$box-shadow-primary: 0px 10px 25px 0 #e2e2e2;
+
+// dark theme
+$box-shadow-secondary: 0px 10px 25px 0 #4a4a4a;
 
 
 ////COLORS

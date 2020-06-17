@@ -11,6 +11,33 @@ return [
     |
     */
 
-    'title' => 'Контакты'
+    'title' => 'Контакты',
+
+    'list'  => [
+
+        'phone'  => [
+            'title' => 'Телефон'
+        ],
+
+        'email'  => [
+            'title' => 'Почта'
+        ],
+
+        'location'  => [
+            'title' => 'Локация'
+        ],
+
+        'socials' => [
+
+            'linkedin'  => [
+                'title' => 'Linkedin'
+            ],
+
+            'telegram'  => [
+                'title' => 'Telegram'
+            ],
+        ]
+
+    ]
 
 ];

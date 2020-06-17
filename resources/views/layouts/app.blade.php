@@ -6,7 +6,7 @@
         <title>@if(isset($title)) {{ $title }} @else App @endif</title>
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
         <link href="{{ asset('css/index.css') }}" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body class="{{ $theme . '-theme' }}">

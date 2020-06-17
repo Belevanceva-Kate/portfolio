@@ -1,0 +1,95 @@
+.settings {
+
+    position: fixed;
+    right: 0;
+    z-index: 10;
+
+    &__toggler {
+        display: inline-block;
+        padding: 6px;
+        background-color: $color-buttons-primary;
+        border: 2px solid $color-buttons-primary;
+        border-radius: 3px;
+        @include transition(background-color);
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: #ffffff;
+
+            svg {
+                path {
+                    fill: $color-accent-primary;
+                }
+            }
+        }
+
+        svg {
+            display: block;
+            width: 22px;
+            height: 22px;
+
+            path {
+                fill: #c6c6c6;
+            }
+        }
+    }
+
+    &__block {
+        display: none;
+        position: absolute;
+        right: 0;
+        border-radius: 3px;
+        padding: 30px 20px;
+        box-shadow: $box-shadow-primary;
+        background-color: $color-background-primary;
+    }
+
+    &__item {
+        list-style-type: none;
+
+        &:not(:last-of-type) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+
+        .settings {
+
+            &__toggler {
+                background-color: $color-buttons-secondary;
+                border-color: $color-buttons-secondary;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    background-color: transparent;
+
+                    svg {
+                        path {
+                            fill: $color-accent-secondary;
+                        }
+                    }
+                }
+
+                svg {
+                    path {
+                        fill: #717273;
+                    }
+                }
+            }
+
+            &__block {
+                box-shadow: $box-shadow-secondary;
+                background-color: $color-background-secondary;
+            }
+        }
+    }
+}

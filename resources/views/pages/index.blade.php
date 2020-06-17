@@ -7,7 +7,11 @@
 
 {{--    @include('components.theme_switcher')--}}
 
+    @include('components.settings')
     @include('components.header')
+    @include('components.profile')
+
+{{--    @include('components.socials')--}}
 
 {{--    <div class="page">--}}
 {{--        @include('components.header')--}}

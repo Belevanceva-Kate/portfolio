@@ -11,6 +11,33 @@ return [
     |
     */
 
-    'title' => 'Contacts'
+    'title' => 'Contacts',
+
+    'list'  => [
+
+        'phone'  => [
+            'title' => 'Phone'
+        ],
+
+        'email'  => [
+            'title' => 'Email'
+        ],
+
+        'location'  => [
+            'title' => 'Location'
+        ],
+
+        'socials' => [
+            
+            'linkedin'  => [
+                'title' => 'Linkedin'
+            ],
+
+            'telegram'  => [
+                'title' => 'Telegram'
+            ],
+        ]
+
+    ]
 
 ];

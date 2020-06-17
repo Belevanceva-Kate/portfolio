@@ -1,6 +1,6 @@
 .main {
     &__title {
-        font-size: 2.625rem;
+        font-size: 4.857rem;
         font-weight: 700;
         line-height: 1;
         color: $color-accent-primary;
@@ -8,10 +8,50 @@
     }
 
     &__subtitle {
-        font-size: 2.625rem;
+        font-size: 4.857rem;
         font-weight: 300;
         line-height: 1;
         text-transform: lowercase;
         margin-bottom: 5px;
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+        .main {
+            &__title {
+                color: $color-accent-secondary;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: $tablet) {
+    .main {
+        &__title {
+            font-size: 2.625rem;
+        }
+
+        &__subtitle {
+            font-size: 2.625rem;
+        }
+    }
+}
+
+@media (max-width: $portrait-phone) {
+    .main {
+        &__title {
+            font-size: 2rem;
+        }
+
+        &__subtitle {
+            font-size: 2rem;
+        }
     }
 }

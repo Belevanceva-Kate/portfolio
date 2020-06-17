@@ -1,20 +1,24 @@
 <header class="section header">
-    <div class="container">
+    @include('snippets.background')
+    <div class="container section__container">
         <div class="section__left">
-            <div class="header__image">
-                <img src="/img/photo.png" alt="photo">
+            <div class="section__content">
+                <div class="header__image">
+                    <img src="/img/photo.png" alt="photo">
+                </div>
             </div>
         </div>
         <div class="section__right">
-            <div class="header__content">
-                <div class="header__main">
-                    @include('snippets.title')
-                    @if (Lang::has('header.content') && !empty(Lang::get('header.content')))
-                        <p class="header__info">{{ __('header.content') }}</p>
-                    @endif
-                </div>
-                <div class="header__contacts">
-
+            <div class="section__content">
+                <div class="header__content">
+                    <div class="header__main">
+                        @include('snippets.title')
+                        @if (Lang::has('header.content') && !empty(Lang::get('header.content')))
+                            <p class="header__info">{{ __('header.content') }}</p>
+                        @endif
+                        @include('snippets.socials')
+                    </div>
+                    @include('snippets.contacts')
                 </div>
             </div>
         </div>

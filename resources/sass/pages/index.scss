@@ -1,14 +1,21 @@
 @import '../global/main';
 
-@import '../components/localization';
-@import '../components/theme_switcher';
+//@import '../components/localization';
+//@import '../components/theme_switcher';
 //@import '../components/decor';
 
 @import '../components/header';
+@import '../components/profile';
 //@import '../components/contacts';
 //@import '../components/education';
 //@import '../components/expertise';
 //@import '../components/experience';
 //@import '../components/portfolio';
 
+@import '../snippets/background';
+@import '../snippets/localization';
+@import '../snippets/theme_switcher';
+@import '../components/settings';
 @import '../snippets/title';
+@import '../snippets/socials';
+@import '../snippets/contacts';

@@ -11056,16 +11056,16 @@ var Base = /*#__PURE__*/function () {
 
 /***/ }),
 
-/***/ "./resources/js/components/Portfolio.js":
-/*!**********************************************!*\
-  !*** ./resources/js/components/Portfolio.js ***!
-  \**********************************************/
+/***/ "./resources/js/components/Settings.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Settings.js ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Portfolio; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Settings; });
 /* harmony import */ var _Base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Base.js */ "./resources/js/Base.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -11089,30 +11089,31 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
-// portfolio__description-toggler
 
 
-var Portfolio = /*#__PURE__*/function (_Base) {
-  _inherits(Portfolio, _Base);
+var Settings = /*#__PURE__*/function (_Base) {
+  _inherits(Settings, _Base);
 
-  var _super = _createSuper(Portfolio);
+  var _super = _createSuper(Settings);
 
-  function Portfolio() {
-    _classCallCheck(this, Portfolio);
+  function Settings() {
+    _classCallCheck(this, Settings);
 
     return _super.apply(this, arguments);
   }
 
-  _createClass(Portfolio, [{
+  _createClass(Settings, [{
     key: "initDOMElements",
     value: function initDOMElements(e) {
       this.classes = {
-        _portfolioDescriptionToggler: '.portfolio__description-toggler',
-        _portfolioItem: '.portfolio__item',
-        _portfolioDescription: '.portfolio__description'
+        _settings: '.settings',
+        _settingsToggler: '.settings__toggler',
+        _settingsBlock: '.settings__block'
       };
       this.els = {
-        _portfolioDescriptionToggler: $(this.classes._portfolioDescriptionToggler)
+        _settings: $(this.classes._settings),
+        _settingsToggler: $(this.classes._settingsToggler),
+        _settingsBlock: $(this.classes._settingsBlock)
       };
     }
   }, {
@@ -11120,19 +11121,35 @@ var Portfolio = /*#__PURE__*/function (_Base) {
     value: function onDOMReady(e) {
       var _this = this;
 
-      this.els._portfolioDescriptionToggler.click(function (e) {
-        return _this.togglePortfolioDescription(e);
+      this.els._settingsToggler.click(function (e) {
+        return _this.toggleSettings(e);
+      });
+
+      this.baseDOM._window.click(function (e) {
+        return _this.closeSettingsByClickOutside(e);
       });
     }
   }, {
-    key: "togglePortfolioDescription",
-    value: function togglePortfolioDescription(e) {
+    key: "toggleSettings",
+    value: function toggleSettings(e) {
       e.preventDefault();
-      var description = $(e.currentTarget).parents(this.classes._portfolioItem).find(this.classes._portfolioDescription).fadeToggle(); // .toggleClass('active');
+
+      this.els._settingsBlock.fadeToggle();
+
+      this.els._settingsBlock.parents(this.classes._settings).toggleClass('active');
+    }
+  }, {
+    key: "closeSettingsByClickOutside",
+    value: function closeSettingsByClickOutside(e) {
+      if ( //checks if descendants was clicked
+      this.els._settingsBlock.has(e.target).length == 0 && this.els._settings.has(e.target).length == 0 && //checks if itself was clicked
+      !this.els._settingsBlock.is(e.target)) {
+        this.els._settingsBlock.fadeOut();
+      }
     }
   }]);
 
-  return Portfolio;
+  return Settings;
 }(_Base_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 
@@ -11250,15 +11267,17 @@ var ThemeSwitcher = /*#__PURE__*/function (_Base) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Base.js */ "./resources/js/Base.js");
-/* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Portfolio */ "./resources/js/components/Portfolio.js");
+/* harmony import */ var _components_Settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Settings */ "./resources/js/components/Settings.js");
 /* harmony import */ var _components_ThemeSwitcher__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ThemeSwitcher */ "./resources/js/components/ThemeSwitcher.js");
 window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"); // window.$ = window.jQuery = require('jquery/dist/jquery.min');
 
+ // import Portfolio from '../components/Portfolio';
 
 
 
 new _Base_js__WEBPACK_IMPORTED_MODULE_0__["default"]().call(function () {
-  new _components_Portfolio__WEBPACK_IMPORTED_MODULE_1__["default"]();
+  // new Portfolio();
+  new _components_Settings__WEBPACK_IMPORTED_MODULE_1__["default"]();
   new _components_ThemeSwitcher__WEBPACK_IMPORTED_MODULE_2__["default"]();
 });
 

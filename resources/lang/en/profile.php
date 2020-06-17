@@ -12,6 +12,7 @@ return [
     */
 
     'title'     => 'Profile',
+
     'content'   => [
         'test1',
         'jkwefwe ewjfbbwkeek wejfbbej ewjbf ejbfje',

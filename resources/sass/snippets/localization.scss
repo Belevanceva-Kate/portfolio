@@ -1,8 +1,8 @@
 .localization {
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
 
     &__list {
-        text-align: right;
+        //text-align: right;
     }
 
     &__item {
@@ -25,12 +25,12 @@
 
 
 
-@media screen and (max-width: $portrait-phone) {
-    .localization {
-        margin-bottom: 20px;
-
-        &__list {
-            text-align: center;
-        }
-    }
-}
+//@media screen and (max-width: $portrait-phone) {
+//    .localization {
+//        margin-bottom: 20px;
+//
+//        &__list {
+//            text-align: center;
+//        }
+//    }
+//}
