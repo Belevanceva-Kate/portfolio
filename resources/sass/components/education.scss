@@ -1,21 +1,136 @@
 .education {
-
     &__item {
         list-style-type: none;
-
-        p {
-            &:not(:last-of-type) {
-                margin-bottom: 10px;
-            }
-        }
+        position: relative;
 
         &:not(:last-of-type) {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: -41px;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            background-color: $color-accent-primary;
+            border-radius: 50%;
+            transform: translate(0, -9px);
         }
     }
 
     &__date {
-        display: block;
-        margin-top: 10px;
+        margin-bottom: 10px;
+        opacity: .6;
+        font-size: 0.85rem;
+    }
+
+    &__name {
+        margin-bottom: 10px;
+        font-size: 1.143rem;
+        font-weight: 700;
+        color: $color-header-primary;
+        text-transform: uppercase;
+    }
+
+    &__area {
+        margin-bottom: 10px;
+    }
+
+    &__info {
+        margin-bottom: 10px;
+    }
+
+    &.section {
+        &:nth-of-type(odd) {
+            .education {
+                &__item {
+                    &:before {
+                        border: 10px solid #ffffff;
+                    }
+                }
+            }
+        }
+
+        &:nth-of-type(even) {
+            .education {
+                &__item {
+                    &:before {
+                        border: 10px solid #fbfbfb;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+
+        .education {
+            &__company {
+                color: $color-header-secondary;
+            }
+
+            &.section {
+
+                &:nth-of-type(odd) {
+                    .education {
+                        &__item {
+                            &:before {
+                                background-color: $color-accent-secondary;
+                                border: 10px solid #2d2e2e;
+                            }
+                        }
+                    }
+                }
+
+                &:nth-of-type(even) {
+                    .education {
+                        &__item {
+                            &:before {
+                                background-color: $color-accent-secondary;
+                                border: 10px solid #2b2c2c;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: $tablet) {
+    .experience {
+
+        &.section {
+
+            &:nth-of-type(odd) {
+                .experience {
+                    &__item {
+                        &:before {
+                            border: 10px solid #ffffff;
+                        }
+                    }
+                }
+            }
+
+            &:nth-of-type(even) {
+                .experience {
+                    &__item {
+                        &:before {
+                            border: 10px solid #ffffff;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

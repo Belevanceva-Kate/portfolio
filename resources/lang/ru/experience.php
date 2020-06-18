@@ -11,13 +11,14 @@ return [
     |
     */
 
-    'title' => 'Work Experience',
+    'title' => 'Опыт',
 
     'list'  => [
 
         'foridev' => [
-            'position'      => 'position 1',
+            'position'      => 'Back-End Developer',
             'company'       => 'company 1',
+            'date'          => '09.2019 – наст. время',
             'description'   => [
                 'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1',
                 'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1'
@@ -25,8 +26,9 @@ return [
         ],
 
         'ohmycode' => [
-            'position'      => 'position 2',
-            'company'       => 'company 2',
+            'position'      => 'Front-End Developer',
+            'company'       => 'ohmycode!',
+            'date'          => '03.2018 – 07.2019',
             'description'   => [
                 'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2',
                 'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2'

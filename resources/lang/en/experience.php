@@ -11,7 +11,7 @@ return [
     |
     */
 
-    'title' => 'Work Experience',
+    'title' => 'Experience',
 
     'list'  => [
 

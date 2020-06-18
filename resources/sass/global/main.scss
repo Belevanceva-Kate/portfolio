@@ -42,6 +42,15 @@ a {
     &__left {
         width: 30%;
         text-align: right;
+
+        .section {
+            &__title {
+                font-size: 1.143rem;
+                font-weight: 600;
+                color: $color-header-primary;
+                text-transform: uppercase;
+            }
+        }
     }
 
     &__right {
@@ -54,6 +63,11 @@ a {
     }
 }
 
+.timeline {
+    border-left: 2px solid $color-line-divider-primary;
+    padding-left: 25px;
+}
+
 
 
 // THEME DARK
@@ -62,6 +76,16 @@ body {
     &.dark-theme {
         background-color: $color-background-secondary;
         color: $color-text-secondary;
+
+        .section {
+            &__title {
+                color: $color-header-secondary;
+            }
+        }
+
+        .timeline {
+            border-left-color: $color-line-divider-secondary;
+        }
     }
 }
 
@@ -75,6 +99,7 @@ body {
 
         &__left {
             width: 100%;
+            text-align: left;
         }
 
         &__right {
@@ -89,12 +114,12 @@ body {
 
 @media (max-width: $portrait-phone) {
     .container {
-        padding: 0 5px;
+        padding: 0;
     }
 
     .section {
         &__content {
-            padding: 10px;
+            padding: 30px 15px;
         }
     }
 }

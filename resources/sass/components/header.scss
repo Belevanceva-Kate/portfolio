@@ -101,6 +101,29 @@ body {
         &__content {
             flex-direction: column;
         }
+
+        .section {
+            &__left {
+                background-color: $color-background-primary !important;
+                border: none !important;
+            }
+        }
+    }
+
+
+
+    // THEME DARK
+
+    body {
+        &.dark-theme {
+            .header {
+                .section {
+                    &__left {
+                        background-color: $color-background-secondary !important;
+                    }
+                }
+            }
+        }
     }
 }
 

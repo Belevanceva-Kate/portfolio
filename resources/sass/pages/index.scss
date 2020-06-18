@@ -4,18 +4,18 @@
 //@import '../components/theme_switcher';
 //@import '../components/decor';
 
+@import '../components/settings';
 @import '../components/header';
 @import '../components/profile';
-//@import '../components/contacts';
-//@import '../components/education';
-//@import '../components/expertise';
-//@import '../components/experience';
+@import '../components/education';
+@import '../components/experience';
+@import '../components/expertise';
 //@import '../components/portfolio';
+//@import '../components/contacts';
 
 @import '../snippets/background';
 @import '../snippets/localization';
 @import '../snippets/theme_switcher';
-@import '../components/settings';
 @import '../snippets/title';
 @import '../snippets/socials';
 @import '../snippets/contacts';

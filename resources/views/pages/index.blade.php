@@ -10,6 +10,9 @@
     @include('components.settings')
     @include('components.header')
     @include('components.profile')
+    @include('components.experience')
+    @include('components.education')
+    @include('components.expertise')
 
 {{--    @include('components.socials')--}}
 

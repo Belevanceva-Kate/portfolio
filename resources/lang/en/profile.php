@@ -17,7 +17,8 @@ return [
         'test1',
         'jkwefwe ewjfbbwkeek wejfbbej ewjbf ejbfje',
         'jdxmnm,zleq;lmfmnzxv',
-        'uwefguiwefuiwebf wefwebfwjefb wefbefbwe ejfbjwebfbwkef qjbefwejfjkwebf xzxmnnnnnnnnnnnn ffffffff dfdd'
+        'uwefguiwefuiwebf wefwebfwjefb wefbefbwe ejfbjwebfbwkef qjbefwejfjkwebf xzxmnnnnnnnnnnnn ffffffff dfdd',
+        'в личных разработках меня интересует тема трансопрта и автоматизация работы диспетчеров'
     ]
 
 ];
