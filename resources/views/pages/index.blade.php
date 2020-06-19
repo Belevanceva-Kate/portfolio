@@ -13,6 +13,8 @@
     @include('components.experience')
     @include('components.education')
     @include('components.expertise')
+    @include('components.portfolio')
+    @include('components.contact')
 
 {{--    @include('components.socials')--}}
 

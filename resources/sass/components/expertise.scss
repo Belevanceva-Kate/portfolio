@@ -18,7 +18,6 @@
     }
 
     &__counter {
-        //width: 15%;
         width: 40px;
         font-size: 1.143rem;
         font-weight: 700;
@@ -26,16 +25,11 @@
     }
 
     &__content {
-        //width: 85%;
         width: calc(100% - 40px);
     }
 
     &__title {
         margin-bottom: 10px;
-        font-size: 1.143rem;
-        font-weight: 700;
-        color: $color-header-primary;
-        text-transform: uppercase;
     }
 }
 
@@ -53,6 +47,30 @@
             border-radius: 50%;
             background-color: $color-accent-primary;
             vertical-align: middle;
+        }
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+
+        .expertise {
+
+            &__counter {
+                color: $color-accent-secondary;
+            }
+        }
+
+        .skills {
+            &__item {
+                &:before {
+                    background-color: $color-accent-secondary;
+                }
+            }
         }
     }
 }

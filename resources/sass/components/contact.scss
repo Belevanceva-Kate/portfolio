@@ -1,0 +1,17 @@
+.contact {
+
+    .contacts {
+        padding-bottom: 50px;
+        border-bottom: 2px solid $color-line-divider-primary;
+    }
+
+    &__block {
+        position: relative;
+    }
+
+    .socials {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}

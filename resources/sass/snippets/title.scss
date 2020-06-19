@@ -16,13 +16,30 @@
     }
 }
 
+.contact {
+
+    .main {
+
+        &__subtitle {
+            margin-top: 50px;
+            font-size: 3.786rem;
+        }
+
+        &__title {
+            font-size: 3.786rem;
+        }
+    }
+}
+
 
 
 // THEME DARK
 
 body {
     &.dark-theme {
+
         .main {
+
             &__title {
                 color: $color-accent-secondary;
             }
@@ -33,7 +50,9 @@ body {
 
 
 @media (max-width: $tablet) {
+    .contact .main,
     .main {
+
         &__title {
             font-size: 2.625rem;
         }
@@ -45,7 +64,9 @@ body {
 }
 
 @media (max-width: $portrait-phone) {
+    .contact .main,
     .main {
+
         &__title {
             font-size: 2rem;
         }

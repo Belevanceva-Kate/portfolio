@@ -18,8 +18,8 @@
         position: absolute;
         right: 0;
         top: 0;
-        transition: .4s;
         border-radius: 34px;
+        @include transition(background-color);
 
         &:before {
             background-color: #fff;
@@ -28,9 +28,9 @@
             height: 26px;
             left: 4px;
             position: absolute;
-            transition: .4s;
             width: 26px;
             border-radius: 50%;
+            @include transition(transform);
         }
     }
 

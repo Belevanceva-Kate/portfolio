@@ -23,7 +23,7 @@
                                             @endif
                                             @if (Lang::has('experience.list.' . $item . '.company') &&
                                                     !empty(Lang::get('experience.list.' . $item . '.company')))
-                                                <p class="experience__company">{{ __('experience.list.' . $item . '.company') }}</p>
+                                                <p class="experience__company section__title">{{ __('experience.list.' . $item . '.company') }}</p>
                                             @endif
                                             @if (Lang::has('experience.list.' . $item . '.position') &&
                                                !empty(Lang::get('experience.list.' . $item . '.position')))

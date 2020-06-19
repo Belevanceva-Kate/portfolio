@@ -195,13 +195,6 @@ a {
   text-align: right;
 }
 
-.section__left .section__title {
-  font-size: 1.143rem;
-  font-weight: 600;
-  color: #727272;
-  text-transform: uppercase;
-}
-
 .section__right {
   width: 70%;
 }
@@ -209,6 +202,13 @@ a {
 .section__content {
   width: 100%;
   padding: 50px;
+}
+
+.section__title {
+  font-size: 1.143rem;
+  font-weight: 600;
+  color: #727272;
+  text-transform: uppercase;
 }
 
 .timeline {
@@ -478,18 +478,16 @@ body.dark-theme .header .contacts {
 
 .education__name {
   margin-bottom: 10px;
-  font-size: 1.143rem;
-  font-weight: 700;
-  color: #727272;
-  text-transform: uppercase;
 }
 
 .education__area {
   margin-bottom: 10px;
+  color: #727272;
 }
 
 .education__info {
   margin-bottom: 10px;
+  color: #727272;
 }
 
 .education.section:nth-of-type(odd) .education__item:before {
@@ -500,7 +498,8 @@ body.dark-theme .header .contacts {
   border: 10px solid #fbfbfb;
 }
 
-body.dark-theme .education__company {
+body.dark-theme .education__info,
+body.dark-theme .education__area {
   color: #a4a5a6;
 }
 
@@ -563,10 +562,6 @@ body.dark-theme .education.section:nth-of-type(even) .education__item:before {
 
 .experience__company {
   margin-bottom: 10px;
-  font-size: 1.143rem;
-  font-weight: 700;
-  color: #727272;
-  text-transform: uppercase;
 }
 
 .experience__position {
@@ -579,10 +574,6 @@ body.dark-theme .education.section:nth-of-type(even) .education__item:before {
 
 .experience.section:nth-of-type(even) .experience__item:before {
   border: 10px solid #fbfbfb;
-}
-
-body.dark-theme .experience__company {
-  color: #a4a5a6;
 }
 
 body.dark-theme .experience.section:nth-of-type(odd) .experience__item:before {
@@ -658,10 +649,6 @@ body.dark-theme .experience.section:nth-of-type(even) .experience__item:before {
 
 .expertise__title {
   margin-bottom: 10px;
-  font-size: 1.143rem;
-  font-weight: 700;
-  color: #727272;
-  text-transform: uppercase;
 }
 
 .skills__item {
@@ -679,6 +666,14 @@ body.dark-theme .experience.section:nth-of-type(even) .experience__item:before {
   vertical-align: middle;
 }
 
+body.dark-theme .expertise__counter {
+  color: #e0a80d;
+}
+
+body.dark-theme .skills__item:before {
+  background-color: #e0a80d;
+}
+
 @media (max-width: 768px) {
   .expertise {
     flex-direction: column;
@@ -691,6 +686,92 @@ body.dark-theme .experience.section:nth-of-type(even) .experience__item:before {
   .expertise__item:nth-of-type(even) {
     margin-left: 0;
   }
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__item {
+  display: flex;
+  width: calc(50% - 10px);
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.portfolio__item:nth-of-type(even) {
+  margin-left: 20px;
+}
+
+.portfolio__icon {
+  width: 40px;
+}
+
+.portfolio__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.portfolio__icon svg path {
+  fill: #F8BB10;
+}
+
+.portfolio__content {
+  width: calc(100% - 40px);
+}
+
+.portfolio__title {
+  transition: color 0.2s ease-in-out;
+}
+
+.portfolio__title:hover,
+.portfolio__title:focus,
+.portfolio__title:active {
+  color: #F8BB10;
+}
+
+.portfolio__excerpt {
+  margin-top: 10px;
+}
+
+body.dark-theme .portfolio__icon svg path {
+  fill: #e0a80d;
+}
+
+body.dark-theme .portfolio__title:hover,
+body.dark-theme .portfolio__title:focus,
+body.dark-theme .portfolio__title:active {
+  color: #e0a80d;
+}
+
+@media (max-width: 576px) {
+  .portfolio__list {
+    flex-direction: column;
+  }
+
+  .portfolio__item {
+    width: 100%;
+  }
+
+  .portfolio__item:nth-of-type(even) {
+    margin-left: 0;
+  }
+}
+
+.contact .contacts {
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ececec;
+}
+
+.contact__block {
+  position: relative;
+}
+
+.contact .socials {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .background {
@@ -844,8 +925,8 @@ body.dark-theme .section:nth-of-type(odd) .section__right {
   position: absolute;
   right: 0;
   top: 0;
-  transition: 0.4s;
   border-radius: 34px;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .theme-switcher__slider:before {
@@ -855,9 +936,9 @@ body.dark-theme .section:nth-of-type(odd) .section__right {
   height: 26px;
   left: 4px;
   position: absolute;
-  transition: 0.4s;
   width: 26px;
   border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
 }
 
 .theme-switcher #theme-switcher__checkbox {
@@ -897,25 +978,38 @@ body.dark-theme .theme-switcher svg path {
   margin-bottom: 5px;
 }
 
+.contact .main__subtitle {
+  margin-top: 50px;
+  font-size: 3.786rem;
+}
+
+.contact .main__title {
+  font-size: 3.786rem;
+}
+
 body.dark-theme .main__title {
   color: #e0a80d;
 }
 
 @media (max-width: 992px) {
+  .contact .main__title,
   .main__title {
     font-size: 2.625rem;
   }
 
+  .contact .main__subtitle,
   .main__subtitle {
     font-size: 2.625rem;
   }
 }
 
 @media (max-width: 576px) {
+  .contact .main__title,
   .main__title {
     font-size: 2rem;
   }
 
+  .contact .main__subtitle,
   .main__subtitle {
     font-size: 2rem;
   }
@@ -992,7 +1086,8 @@ body.dark-theme .socials__link svg path {
 }
 
 @media (max-width: 992px) {
-  .header__content .socials {
+  .header .socials,
+  .contact .socials {
     position: relative;
     margin-top: 25px;
   }
@@ -1015,6 +1110,7 @@ body.dark-theme .socials__link svg path {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 15px;
+  color: #727272;
 }
 
 .contacts__link {
@@ -1036,6 +1132,24 @@ body.dark-theme .socials__link svg path {
   border-top: 2px solid #ececec;
 }
 
+body.dark-theme .contacts__title {
+  color: #a4a5a6;
+}
+
+body.dark-theme .contacts__link {
+  color: #979899;
+}
+
+body.dark-theme .contacts__link:hover,
+body.dark-theme .contacts__link:focus,
+body.dark-theme .contacts__link:active {
+  color: #e0a80d;
+}
+
+body.dark-theme .contact .contacts {
+  border-bottom-color: #404242;
+}
+
 @media (max-width: 992px) {
   .header .contacts {
     position: relative;
@@ -1044,13 +1158,18 @@ body.dark-theme .socials__link svg path {
 }
 
 @media (max-width: 768px) {
-  .header .contacts__list {
+  .header .contacts__list,
+  .contact .contacts__list {
     flex-direction: column;
-    text-align: center;
   }
 
-  .header .contacts__item:not(:last-of-type) {
+  .header .contacts__item:not(:last-of-type),
+  .contact .contacts__item:not(:last-of-type) {
     margin-bottom: 25px;
+  }
+
+  .header .contacts__list {
+    text-align: center;
   }
 }
 

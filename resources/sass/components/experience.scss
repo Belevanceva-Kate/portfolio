@@ -39,10 +39,6 @@
 
     &__company {
         margin-bottom: 10px;
-        font-size: 1.143rem;
-        font-weight: 700;
-        color: $color-header-primary;
-        text-transform: uppercase;
     }
 
     &__position {
@@ -80,9 +76,6 @@ body {
     &.dark-theme {
 
         .experience {
-            &__company {
-                color: $color-header-secondary;
-            }
 
             &.section {
 

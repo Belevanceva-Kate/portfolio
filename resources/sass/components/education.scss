@@ -28,18 +28,16 @@
 
     &__name {
         margin-bottom: 10px;
-        font-size: 1.143rem;
-        font-weight: 700;
-        color: $color-header-primary;
-        text-transform: uppercase;
     }
 
     &__area {
         margin-bottom: 10px;
+        color: $color-header-primary;
     }
 
     &__info {
         margin-bottom: 10px;
+        color: $color-header-primary;
     }
 
     &.section {
@@ -73,7 +71,9 @@ body {
     &.dark-theme {
 
         .education {
-            &__company {
+
+            &__info,
+            &__area {
                 color: $color-header-secondary;
             }
 

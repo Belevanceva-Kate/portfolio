@@ -94,12 +94,12 @@ body {
 
 
 @media (max-width: $tablet) {
-    .header {
-        &__content {
-            .socials {
-                position: relative;
-                margin-top: 25px;
-            }
+    .header,
+    .contact {
+
+        .socials {
+            position: relative;
+            margin-top: 25px;
         }
     }
 }

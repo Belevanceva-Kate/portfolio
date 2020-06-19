@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'IndexController@display');
-
-Route::get('locale/{locale}', 'LocalizationController@update_locale');
+Route::group(['middleware' => 'HtmlMinify'], function() {
+    Route::get('/', 'IndexController@display');
+    Route::get('/projects/{name}', 'ProjectController@display');
+    Route::get('locale/{locale}', 'LocalizationController@update_locale');
+});

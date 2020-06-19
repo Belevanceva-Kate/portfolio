@@ -7,7 +7,7 @@
                         href="{{ config('contacts.socials.' . $item . '.link') }}"
                         class="socials__link"
                         target="_blank"
-                        title={{ config('contacts.socials.' . $item . '.title') }}
+                        title="{{ config('contacts.socials.' . $item . '.title') }}"
                     >
                         @include(config('contacts.socials.' . $item . '.image'))
                     </a>

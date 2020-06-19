@@ -27,7 +27,7 @@
                                     <div class="expertise__content">
                                         @if (Lang::has('expertise.list.' . $item . '.list') &&
                                             !empty(Lang::get('expertise.list.' . $item . '.list')))
-                                            <p class="expertise__title">{{ __('expertise.list.' . $item . '.title') }}</p>
+                                            <p class="expertise__title section__title">{{ __('expertise.list.' . $item . '.title') }}</p>
                                         @endif
 
                                         @if (Lang::has('expertise.list.' . $item . '.list') &&

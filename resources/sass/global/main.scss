@@ -43,14 +43,14 @@ a {
         width: 30%;
         text-align: right;
 
-        .section {
-            &__title {
-                font-size: 1.143rem;
-                font-weight: 600;
-                color: $color-header-primary;
-                text-transform: uppercase;
-            }
-        }
+        //.section {
+        //    &__title {
+        //        font-size: 1.143rem;
+        //        font-weight: 600;
+        //        color: $color-header-primary;
+        //        text-transform: uppercase;
+        //    }
+        //}
     }
 
     &__right {
@@ -60,6 +60,13 @@ a {
     &__content {
         width: 100%;
         padding: 50px;
+    }
+
+    &__title {
+        font-size: 1.143rem;
+        font-weight: 600;
+        color: $color-header-primary;
+        text-transform: uppercase;
     }
 }
 
