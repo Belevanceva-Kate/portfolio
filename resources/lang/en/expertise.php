@@ -18,10 +18,9 @@ return [
         'front-end'  => [
             'title'  => 'Front-End',
             'list'   => [
-                'HTML',
-                'CSS',
-                'SCSS',
-                'JS'
+                'HTML, Pug',
+                'CSS, SCSS',
+                'JS', 'jQuery'
             ]
         ],
 
@@ -69,12 +68,11 @@ return [
             ]
         ],
 
-        'v'  => [
-            'title'  => 'Back-End',
+        'platforms'  => [
+            'title'  => 'Platforms',
             'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
+                'Shopify',
+                'WordPress'
             ]
         ],
 

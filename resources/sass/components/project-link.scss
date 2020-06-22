@@ -1,0 +1,43 @@
+.project-link {
+
+    &__description {
+        font-size: 1.143rem;
+
+        a {
+            font-weight: 700;
+            color: $color-text-primary;
+            @include transition(color);
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: $color-accent-primary;
+            }
+        }
+    }
+}
+
+
+
+// THEME DARK
+
+body {
+    &.dark-theme {
+
+        .project-link {
+
+            &__description {
+
+                a {
+                    color: $color-text-secondary;
+
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        color: $color-accent-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -23,6 +23,7 @@
                                         <a
     {{--                                        href="{{ __('portfolio.list.' . $item . '.site_link') }}"--}}
                                             href="/projects/{{ __('portfolio.list.' . $item . '.handle') }}"
+{{--                                            href="#"--}}
                                             title="{{ __('portfolio.list.' . $item . '.title') }}"
                                             class="portfolio__title section__title"
                                         >

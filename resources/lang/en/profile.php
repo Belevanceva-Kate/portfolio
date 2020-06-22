@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Header Profile Lines
+    | Profile Language Lines
     |--------------------------------------------------------------------------
     |
     | The following language lines are used in profile section

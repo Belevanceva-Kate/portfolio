@@ -1,6 +1,13 @@
-<div class="project">
-    <div class="project__image">
-        <img src="/img/projects/blendtopia.png" alt="">
-    </div>
-    <p>kdfvnk</p>
-</div>
+@extends('layouts.main')
+
+@section('content')
+
+    @include('components.settings')
+    @include('components.project-header')
+    @include('components.project-description')
+    @include('components.project-link')
+    @include('components.project-tools')
+    @include('components.portfolio')
+    @include('components.contact')
+
+@endsection

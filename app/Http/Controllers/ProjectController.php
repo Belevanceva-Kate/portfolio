@@ -12,9 +12,23 @@ class ProjectController extends Controller
      */
     public function display($name, Request $request) {
 
+        $page = 'project';
         $project = __('portfolio.list.' . $name);
+        $contacts   = ['phone', 'email', 'location'];
+        $socials    = ['linkedin', 'telegram'];
+        $experience = ['foridev', 'ohmycode'];
+        $education  = ['master', 'bachelor', 'school'];
+        $expertise  = ['front-end', 'back-end', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms', 'c', 'x', 'z', 'h'];
+        $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
-        $this->assign('contacts', $project);
+        $this->assign('page', $page);
+        $this->assign('project', $project);
+        $this->assign('contacts', $contacts);
+        $this->assign('socials', $socials);
+        $this->assign('experience', $experience);
+        $this->assign('education', $education);
+        $this->assign('expertise', $expertise);
+        $this->assign('portfolio', $portfolio);
 
         return view('pages.project');
     }

@@ -17,4 +17,5 @@ Route::group(['middleware' => 'HtmlMinify'], function() {
     Route::get('/', 'IndexController@display');
     Route::get('/projects/{name}', 'ProjectController@display');
     Route::get('locale/{locale}', 'LocalizationController@update_locale');
+    Route::get('invoices/download', 'PDFController@download');
 });

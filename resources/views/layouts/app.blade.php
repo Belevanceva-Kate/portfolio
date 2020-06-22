@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@if(isset($title)) {{ $title }} @else Resume @endif</title>
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
-        <link href="{{ asset('css/index.css') }}" rel="stylesheet">
+        <link href="@if(isset($page)) {{ asset('css/' . $page . '.css') }} @else {{ asset('css/index.css') }} @endif" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
 
