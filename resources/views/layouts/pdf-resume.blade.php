@@ -3,14 +3,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Resume</title>
-
-        <style>
-            body { font-family: DejaVu Sans, sans-serif; }
-            /*body { font-family: 'Lato', sans-serif; }*/
-        </style>
+        @include('pdf.components.resume_styles')
     </head>
 
     <body>
-    @yield('content')
+        @yield('content')
     </body>
 </html>

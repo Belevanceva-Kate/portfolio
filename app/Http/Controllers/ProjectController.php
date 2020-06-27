@@ -12,14 +12,14 @@ class ProjectController extends Controller
      */
     public function display($name, Request $request) {
 
-        $page = 'project';
-        $project = __('portfolio.list.' . $name);
+        $page       = 'project';
+        $project    = __('portfolio.list.' . $name);
         $contacts   = ['phone', 'email', 'location'];
         $socials    = ['linkedin', 'telegram'];
         $experience = ['foridev', 'ohmycode'];
         $education  = ['master', 'bachelor', 'school'];
         $expertise  = ['front-end', 'back-end', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms', 'c', 'x', 'z', 'h'];
-        $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $portfolio  = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $this->assign('page', $page);
         $this->assign('project', $project);

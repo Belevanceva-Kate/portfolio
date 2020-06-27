@@ -22,7 +22,7 @@ class IndexController extends Controller
         $experience = ['foridev', 'ohmycode'];
         $education  = ['master', 'bachelor', 'school'];
         $expertise  = ['front-end', 'back-end', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms', 'c', 'x', 'z', 'h'];
-        $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $portfolio  = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $this->assign('page', $page);
         $this->assign('contacts', $contacts);

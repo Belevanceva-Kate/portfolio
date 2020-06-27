@@ -16,14 +16,51 @@ return [
 
     'list'  => [
 
+        'portfolio' => [
+            'title'         => 'Portfolio',
+            'excerpt'       => [
+                'The web profile with information about person\'s experience and skills'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Github',
+                    'title'     => 'Portfolio',
+                    'link'      => 'https://github.com/Belevanceva-Kate/portfolio'
+                ],
+                [
+                    'resource'  => 'Website',
+                    'title'     => 'Portfolio',
+                    'link'      => '#'
+                ]
+            ],
+//            'site_title'    => 'Portfolio',
+//            'site_link'     => 'https://www.blendtopia.com',
+            'handle'        => 'portfolio',
+            'description'   => [
+                'The web profile with information about person\'s experience and skills',
+            ],
+            'tools'         => [
+                'Laravel',
+                'jQuery'
+            ],
+            'icon'          => 'icons.projects.person'
+        ],
+
         'blendtopia' => [
             'title'         => 'Blendtopia',
             'excerpt'       => [
                 'Smoothies & Superfoods Store'
             ],
 //            'title'         => 'Blendtopia. Blend your smoothie',
-            'site_title'    => 'Blendtopia',
-            'site_link'     => 'https://www.blendtopia.com',
+            'links'         => [
+                [
+                    'resource'  => 'Website',
+                    'title'     => 'Blendtopia',
+                    'link'      => 'https://www.blendtopia.com'
+                ]
+            ],
+//            'site_title'    => 'Blendtopia',
+//            'site_link'     => 'https://www.blendtopia.com',
             'handle'        => 'blendtopia',
             'banner'        => '/img/projects/blendtopia.png',
             'description'   => [
@@ -45,8 +82,15 @@ return [
             'excerpt'       => [
                 'Shopify public app for selling codes'
             ],
-            'site_title'    => 'Foridev - #1 Selling Codes app',
-            'site_link'     => 'https://shopify/apps',
+            'links'         => [
+                [
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Foridev - Selling Codes app',
+                    'link'      => '#'
+                ]
+            ],
+//            'site_title'    => 'Foridev - #1 Selling Codes app',
+//            'site_link'     => 'https://shopify/apps',
             'handle'        => 'codes',
             'description'   => [
                 'Application developed for the Shopify platform.',
@@ -66,8 +110,15 @@ return [
                 'Cannabidiol Shop'
             ],
 //            'title'         => 'CannaGo. Cannabidiol shop',
-            'site_title'    => 'CannaGo',
-            'site_link'     => 'https://cannago.co.uk/',
+            'links'         => [
+                [
+                    'resource'  => 'Website',
+                    'title'     => 'CannaGo',
+                    'link'      => 'https://cannago.co.uk/'
+                ]
+            ],
+//            'site_title'    => 'CannaGo',
+//            'site_link'     => 'https://cannago.co.uk/',
             'handle'        => 'cannago',
             'description'   => [
                 'Front-end of the site'

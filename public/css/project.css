@@ -343,17 +343,36 @@ body.dark-theme .settings__block {
   font-size: 2.143rem;
 }
 
+.back {
+  display: block;
+}
+
 .back svg {
   width: 30px;
   height: 30px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .back svg path {
   fill: #939393;
 }
 
+.back:hover svg,
+.back:focus svg,
+.back:active svg {
+  transform: translate(-10px, 0);
+}
+
 body.dark-theme .back svg path {
   fill: #979899;
+}
+
+@media (max-width: 992px) {
+  .back:hover svg,
+  .back:focus svg,
+  .back:active svg {
+    transform: unset;
+  }
 }
 
 @media (max-width: 576px) {
@@ -371,29 +390,29 @@ body.dark-theme .back svg path {
   line-height: 1.7;
 }
 
-.project-link__description {
+.project-links__description {
   font-size: 1.143rem;
 }
 
-.project-link__description a {
+.project-links__description a {
   font-weight: 700;
   color: #939393;
   transition: color 0.2s ease-in-out;
 }
 
-.project-link__description a:hover,
-.project-link__description a:focus,
-.project-link__description a:active {
+.project-links__description a:hover,
+.project-links__description a:focus,
+.project-links__description a:active {
   color: #F8BB10;
 }
 
-body.dark-theme .project-link__description a {
+body.dark-theme .project-links__description a {
   color: #979899;
 }
 
-body.dark-theme .project-link__description a:hover,
-body.dark-theme .project-link__description a:focus,
-body.dark-theme .project-link__description a:active {
+body.dark-theme .project-links__description a:hover,
+body.dark-theme .project-links__description a:focus,
+body.dark-theme .project-links__description a:active {
   color: #e0a80d;
 }
 

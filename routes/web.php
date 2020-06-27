@@ -14,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['middleware' => 'HtmlMinify'], function() {
-    Route::get('/', 'IndexController@display');
-    Route::get('/projects/{name}', 'ProjectController@display');
+    Route::prefix('/')->group(function() {
+
+        Route::get('/', 'IndexController@display');
+
+        Route::prefix('projects')->group(function() {
+            Route::get('{name}', 'ProjectController@display');
+            Route::get('locale/{locale}', 'LocalizationController@update_locale');
+        });
+    });
+
     Route::get('locale/{locale}', 'LocalizationController@update_locale');
-    Route::get('invoices/download', 'PDFController@download');
+//    Route::get('pdf', 'PDFController@download');
 });

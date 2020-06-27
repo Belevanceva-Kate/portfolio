@@ -13,7 +13,7 @@ return [
 
     'title'         => 'Project',
     'description'   => 'Description',
-    'link'          => 'Link',
+    'links'         => 'Links',
     'tools'         => 'Tools'
 
 ];
