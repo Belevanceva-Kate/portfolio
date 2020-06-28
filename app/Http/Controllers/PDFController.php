@@ -15,7 +15,7 @@ class PDFController extends Controller
         $socials    = ['linkedin', 'telegram'];
         $experience = ['foridev', 'ohmycode'];
         $education  = ['master', 'bachelor', 'school'];
-        $expertise  = ['front-end', 'back-end', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms', 'c', 'x', 'z', 'h'];
+        $expertise  = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms'];
         $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $pdf = PDF::loadView('pdf.pages.resume', compact(

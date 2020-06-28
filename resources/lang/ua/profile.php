@@ -14,10 +14,8 @@ return [
     'title'     => 'Профайл',
 
     'content'   => [
-        'test1',
-        'jkwefwe ewjfbbwkeek wejfbbej ewjbf ejbfje',
-        'jdxmnm,zleq;lmfmnzxv',
-        'uwefguiwefuiwebf wefwebfwjefb wefbefbwe ejfbjwebfbwkef qjbefwejfjkwebf xzxmnnnnnnnnnnnn ffffffff dfdd'
+        'Мені подобаються складні інтерактивні веб-сервіси, створення красивих інтерфейсів для потреб користувача, і те, як це все працює, допомагаючи вирішувати проблеми клієнтів.',
+        'В особистих проектах мене цікавить тема транспорту та автоматизація роботи диспетчерів.'
     ]
 
 ];

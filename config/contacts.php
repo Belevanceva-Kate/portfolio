@@ -24,7 +24,7 @@ return [
 
         'linkedin' => [
             'title' => 'Kate Bielievantseva',
-            'link'  => 'https://linkedin.com',
+            'link'  => 'https://www.linkedin.com/in/kate-bielievantseva-483b25153',
             'image' => 'icons.contacts.linkedin'
         ],
 

@@ -14,11 +14,9 @@ return [
     'title'     => 'Profile',
 
     'content'   => [
-        'test1',
-        'jkwefwe ewjfbbwkeek wejfbbej ewjbf ejbfje',
-        'jdxmnm,zleq;lmfmnzxv',
-        'uwefguiwefuiwebf wefwebfwjefb wefbefbwe ejfbjwebfbwkef qjbefwejfjkwebf xzxmnnnnnnnnnnnn ffffffff dfdd',
-        'в личных разработках меня интересует тема трансопрта и автоматизация работы диспетчеров'
+        'I like complex interactive web services, creating beautiful interfaces for user needs, and how it all works, helping to solve customer problems.',
+        /*'I like complex interactive web services, creating the beautiful interface for users\' needs and make things working',*/
+        'In personal projects, I am interested in the transport theme and the automation of dispatchers.'
     ]
 
 ];

@@ -11,25 +11,76 @@ return [
     |
     */
 
-    'title' => 'Expertise',
+    'title' => 'Навички',
 
     'list' => [
 
         'front-end'  => [
             'title'  => 'Front-End',
             'list'   => [
-                'asd',
-                'asdasd',
-                'dfafdsfsdfwe'
+                'HTML, Pug',
+                'CSS, SCSS',
+                'JS, jQuery',
+                'Адаптивна та кросбраузерна верстка'
             ]
         ],
 
         'back-end'  => [
             'title'  => 'Back-End',
             'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
+                'PHP',
+                'Node.js'
+            ]
+        ],
+
+        'frameworks'  => [
+            'title'  => 'Фреймворки',
+            'list'   => [
+                'Laravel',
+                'React'
+            ]
+        ],
+
+        'graphics_editors'  => [
+            'title'  => 'Графічні редактори',
+            'list'   => [
+                'Photoshop',
+                'Figma',
+                'Zeplin'
+            ]
+        ],
+
+        'bundlers'  => [
+            'title'  => 'Збірники проектів',
+            'list'   => [
+                'Webpack',
+                'Gulp',
+            ]
+        ],
+
+        'databases'  => [
+            'title'  => 'Бази даних',
+            'list'   => [
+                'MySQL',
+                'PostgreSQL',
+                'MS SQL'
+            ]
+        ],
+
+        'languages'  => [
+            'title'  => 'Other Languages',
+            'list'   => [
+                'C++',
+                'C#',
+                'Java'
+            ]
+        ],
+
+        'platforms'  => [
+            'title'  => 'Platforms',
+            'list'   => [
+                'Shopify',
+                'WordPress'
             ]
         ]
     ]

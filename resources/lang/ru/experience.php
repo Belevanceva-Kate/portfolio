@@ -17,11 +17,11 @@ return [
 
         'foridev' => [
             'position'      => 'Back-End Developer',
-            'company'       => 'company 1',
-            'date'          => '09.2019 – наст. время',
+            'company'       => 'Foridev',
+            'date'          => '09.2019 – present',
             'description'   => [
-                'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1',
-                'desc 1 desc 1 desc 1 desc 1desc 1 desc 1 desc 1'
+                'Работала над внутренними проектами компании, занималась как аутсорсовыми проектами, так и была аутстафф сотрудником.',
+                'В основном разрабатывала на PHP и взаимодействовала с платформой Shopify при создании приложений под эту платформу. В качестве фреймворка при создании плагинов отдаю предпочтение Laravel. Также создавала Shopify темы.',
             ]
         ],
 
@@ -30,8 +30,8 @@ return [
             'company'       => 'ohmycode!',
             'date'          => '03.2018 – 07.2019',
             'description'   => [
-                'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2',
-                'desc 2 desc 2 desc 2 desc 2 desc 2 desc 2 desc 2'
+                'Занималась разработкой интерфейсов для различных сайтов, разрабатывала темы для платформы Shopify',
+                'Попробовала себя в написании Back-End части биржы криптовалют (Node.js, Redis)'
             ]
         ]
     ]

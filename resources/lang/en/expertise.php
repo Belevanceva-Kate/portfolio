@@ -20,7 +20,8 @@ return [
             'list'   => [
                 'HTML, Pug',
                 'CSS, SCSS',
-                'JS', 'jQuery'
+                'JS, jQuery',
+                'Adaptive cross-browser layouts'
             ]
         ],
 
@@ -29,6 +30,14 @@ return [
             'list'   => [
                 'PHP',
                 'Node.js'
+            ]
+        ],
+
+        'frameworks'  => [
+            'title'  => 'Frameworks',
+            'list'   => [
+                'Laravel',
+                'React'
             ]
         ],
 
@@ -63,8 +72,7 @@ return [
             'list'   => [
                 'C++',
                 'C#',
-                'Java',
-                'Pascal'
+                'Java'
             ]
         ],
 
@@ -73,42 +81,6 @@ return [
             'list'   => [
                 'Shopify',
                 'WordPress'
-            ]
-        ],
-
-        'c'  => [
-            'title'  => 'Back-End',
-            'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
-            ]
-        ],
-
-        'x'  => [
-            'title'  => 'Back-End',
-            'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
-            ]
-        ],
-
-        'z'  => [
-            'title'  => 'Back-End',
-            'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
-            ]
-        ],
-
-        'h'  => [
-            'title'  => 'Back-End',
-            'list'   => [
-                'wiohq',
-                'wqihyiqwry',
-                'sdlmwl'
             ]
         ]
     ]

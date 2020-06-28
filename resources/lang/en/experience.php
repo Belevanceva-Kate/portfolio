@@ -20,10 +20,8 @@ return [
             'company'       => 'Foridev',
             'date'          => '09.2019 – present',
             'description'   => [
-                'работала над внутренними проектами компании для облегчения учета,
-                занималась аутсорсовыми проектами',
-                'в основном работа касалась разработки на пхп и взаимодействия с платформой шопифай
-                в качестве фреймворка часто использовала ларавель'
+                'Worked on internal projects of the company, outsourced projects, and was an outstaff employee.',
+                'Mostly developed in PHP and interacted with the Shopify platform when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
             ]
         ],
 
@@ -32,9 +30,8 @@ return [
             'company'       => 'ohmycode!',
             'date'          => '03.2018 – 07.2019',
             'description'   => [
-                'занималась внутренними и аутсорс проектами',
-                'разрабатывала фронт-енд приложений',
-                'имела опыт Wrote Back-End part of cryptocurrency exchanger using Node.js. Had experience with writing models, controllers and worked with Redis.'
+                'Engaged in the development of interfaces for various sites, developed themes for the Shopify platform.',
+                'Tried my hand at writing the Back-End part of the cryptocurrency exchange (Node.js, Redis).'
             ]
         ]
     ]

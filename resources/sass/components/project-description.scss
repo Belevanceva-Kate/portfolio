@@ -10,5 +10,12 @@
     &__description {
         font-size: 1.143rem;
         line-height: 1.7;
+
+        p {
+
+            &:not(:last-of-type) {
+                margin-bottom: 10px;
+            }
+        }
     }
 }

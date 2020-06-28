@@ -30,7 +30,7 @@ return [
         ],
 
         'school' => [
-            'heading'      => 'School',
+//            'heading'   => 'School',
             'name'      => 'The educational complex "School-Lyceum of Information Technology №69"',
             'date'      => '2003 – 2014'
         ]
