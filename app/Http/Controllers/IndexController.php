@@ -16,13 +16,13 @@ class IndexController extends Controller
      */
     public function display(Request $request) {
 
-        $page       = 'index';
-        $contacts   = ['phone', 'email', 'location'];
-        $socials    = ['linkedin', 'telegram'];
-        $experience = ['foridev', 'ohmycode'];
-        $education  = ['master', 'bachelor', 'school'];
-        $expertise  = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages'];
-        $portfolio  = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $page           = 'index';
+        $contacts       = ['phone', 'email', 'location'];
+        $socials        = ['linkedin', 'telegram'];
+        $experience     = ['foridev', 'ohmycode'];
+        $education      = ['master', 'bachelor', 'school'];
+        $expertise      = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages'];
+        $portfolio      = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $this->assign('page', $page);
         $this->assign('contacts', $contacts);

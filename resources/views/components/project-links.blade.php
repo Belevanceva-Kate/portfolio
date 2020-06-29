@@ -15,9 +15,9 @@
                         @if (!empty($project['links']))
                             @foreach($project['links'] as $project)
                                 @if (!$loop->last)
-                                    <a href="{{ $project['link'] }}"class="section__title">{{ $project['resource'] }}</a>,
+                                    <a href="{{ $project['link'] }}" class="section__title" target="_blank">{{ $project['resource'] }}</a>,
                                 @else
-                                    <a href="{{ $project['link'] }}" class="section__title">{{ $project['resource'] }}</a>
+                                    <a href="{{ $project['link'] }}" class="section__title" target="_blank">{{ $project['resource'] }}</a>
                                 @endif
                             @endforeach
                         @endif

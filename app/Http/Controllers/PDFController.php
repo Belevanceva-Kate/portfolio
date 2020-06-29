@@ -10,13 +10,13 @@ class PDFController extends Controller
 {
     public function download()
     {
-        $page       = 'pdf-resume';
-        $contacts   = ['phone', 'email', 'location'];
-        $socials    = ['linkedin', 'telegram'];
-        $experience = ['foridev', 'ohmycode'];
-        $education  = ['master', 'bachelor', 'school'];
-        $expertise  = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms'];
-        $portfolio  = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $page           = 'pdf-resume';
+        $contacts       = ['phone', 'email', 'location'];
+        $socials        = ['linkedin', 'telegram'];
+        $experience     = ['foridev', 'ohmycode'];
+        $education      = ['master', 'bachelor', 'school'];
+        $expertise      = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages', 'platforms'];
+        $portfolio      = ['blendtopia', 'codes', 'cannago', 'marketplace-genie'];
 
         $pdf = PDF::loadView('pdf.pages.resume', compact(
             'page',

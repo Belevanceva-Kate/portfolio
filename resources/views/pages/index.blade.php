@@ -14,6 +14,8 @@
     @include('components.education')
     @include('components.expertise')
     @include('components.portfolio')
+    @include('components.publications')
+    @include('components.conferences')
     @include('components.contact')
 
 @endsection

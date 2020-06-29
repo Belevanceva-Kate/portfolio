@@ -18,7 +18,7 @@ return [
         'portfolio' => [
             'title'         => 'Portfolio',
             'excerpt'       => [
-                'The web profile with information about person\'s experience and skills'
+                'The web profile with information about personal experience and skills'
             ],
             'links'         => [
                 [
@@ -32,12 +32,10 @@ return [
                     'link'      => '#'
                 ]
             ],
-//            'site_title'    => 'Portfolio',
-//            'site_link'     => 'https://www.blendtopia.com',
             'handle'        => 'portfolio',
             'description'   => [
-                'The web profile describing experience and skills. You can also view detailed information about the project\'s technologies that were used.',
-                'The user could switch dark or light mode, as well as switch languages in the settings.'
+                'Web profile describing experience and skills. It allows the user to view detailed information about technologies that were used in the project.',
+                'The user can switch dark or light mode, as well as switch languages in the settings.'
             ],
             'tools'         => [
                 'Laravel',
@@ -51,7 +49,6 @@ return [
             'excerpt'       => [
                 'Superfoods Store'
             ],
-//            'title'         => 'Blendtopia. Blend your smoothie',
             'links'         => [
                 [
                     'resource'  => 'Website',
@@ -59,15 +56,13 @@ return [
                     'link'      => 'https://www.blendtopia.com'
                 ]
             ],
-//            'site_title'    => 'Blendtopia',
-//            'site_link'     => 'https://www.blendtopia.com',
             'handle'        => 'blendtopia',
-            'banner'        => '/img/projects/blendtopia.png',
+//            'banner'        => '/img/projects/blendtopia.png',
             'description'   => [
-                'This is a super food business.',
-                'The goal of the project was to implement the collection of products in the boxes to give the customer the opportunity to \' subscribe\'to a constant supply which can be changed.',
-                'There are several types of boxes: predefined and custom. The first one has a ready-made set of products by tastes and quantity. The second - allows the user to choose how much and what tastes he/she wants to buy.',
-                'A unique design and box builder was created for this project. The Front-End part was developed, as well as the Back-End, which helped the subscription plugin interpret the boxes correctly. '
+                'This is a superfood business.',
+                'The goal of the project was to realize product boxes assembly to give the customer a chance to either \'subscribe\' to a constant supply or make a one-time purchase. The client could edit the subscription.',
+                'There are several types of boxes: predefined and custom. The first one has a ready-made set of products by flavours and quantity. The second allows the user to choose how much and what flavours he/she wants to buy.',
+                'A unique design and box builder was created for this project. Custom layout was developed implementing the Back-End part which helped the subscription plugin interpret the boxes correctly.'
 //                'This is a smoothie business. They are portioned.',
 //                'The order can be carried out in boxes with sizes of 8, 12, 16 and 24 smoothies. Each box can simply be bought, or "subscribe" to it. That is, you can receive them every 1, 2, 4 or 6 weeks.',
 //                'There are several types of boxes: predefined and custom. The first one has a ready-made set of smoothies by taste and quantity. The second - allows the user to choose how much and what tastes he/she wants to buy.',
@@ -97,10 +92,10 @@ return [
 //            'site_link'     => 'https://shopify/apps',
             'handle'        => 'codes',
             'description'   => [
-                'Application helps shop owners sell serial keys. With the help of the app, they can pin them to some product, as well as store multilingual links to activate them.',
-                'For example, a customer wants to buy a serial key for a game. After order payment, a letter will be sent to client\'s mail in which the product is indicated, the serial key to it and a link to the activation. He/she can also view this information in personal account.',
+                'Application helps shop owners sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
+                'For example, a customer wants to buy a serial key for a game. After order payment, a letter will be sent to the client\'s email containing the product, the serial key and a link to activate it. He/she can also view this information in the personal account.',
                 'Application developed for the Shopify platform.',
-                'Currently being reviewing by Shopify.'
+                'Currently being reviewed.'
             ],
             'tools'         => [
                 'Shopify',
@@ -114,7 +109,6 @@ return [
             'excerpt'       => [
                 'Cannabidiol Shop'
             ],
-//            'title'         => 'CannaGo. Cannabidiol shop',
             'links'         => [
                 [
                     'resource'  => 'Website',
@@ -122,11 +116,9 @@ return [
                     'link'      => 'https://cannago.co.uk'
                 ]
             ],
-//            'site_title'    => 'CannaGo',
-//            'site_link'     => 'https://cannago.co.uk/',
             'handle'        => 'cannago',
             'description'   => [
-                'A business that specializes in the sale of cannabidiol. Customers are provided with many products from this component, including for animals. Users can also view laboratory test results for each product.'
+                'A business that specializes in the sale of cannabidiol. It has many products with this component available for the clients as well as for their pets. Users can also view laboratory test results for each product.'
             ],
             'tools'         => [
                 'Shopify'

@@ -21,7 +21,7 @@ return [
             'date'          => '09.2019 – present',
             'description'   => [
                 'Worked on internal projects of the company, outsourced projects, and was an outstaff employee.',
-                'Mostly developed in PHP and interacted with the Shopify platform when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
+                'Mostly developed in PHP and interacted with Shopify when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
             ]
         ],
 

@@ -68,7 +68,7 @@ return [
         ],
 
         'languages'  => [
-            'title'  => 'Other Languages',
+            'title'  => 'Інші мови',
             'list'   => [
                 'C++',
                 'C#',
@@ -77,7 +77,7 @@ return [
         ],
 
         'platforms'  => [
-            'title'  => 'Platforms',
+            'title'  => 'Платформи',
             'list'   => [
                 'Shopify',
                 'WordPress'

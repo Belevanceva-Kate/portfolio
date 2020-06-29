@@ -1,3 +1,3 @@
 # Portfolio
 
-The Laravel project that describes the person's experience and skills. You can also see more detailed information about the projects and technologies that were used. There is a possibility in the settings to change the color scheme to dark or light, as well as switch the language.
+The Laravel project that describes experience and skills. It allows the user to view detailed information about technologies that were used in the project. The user can switch dark or light mode, as well as switch languages in the settings.

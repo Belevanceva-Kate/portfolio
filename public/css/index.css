@@ -629,6 +629,54 @@ body.dark-theme .portfolio__title:active {
   }
 }
 
+.publications__item {
+  list-style-type: none;
+  padding-left: 15px;
+  position: relative;
+}
+
+.publications__item:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #F8BB10;
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+
+.publications__item:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.publications__item p:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.publications__link {
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.publications__link:hover,
+.publications__link:focus,
+.publications__link:active {
+  color: #F8BB10;
+}
+
+.publications__title-original {
+  font-size: 12px;
+}
+
+body.dark-theme .publications__link:hover,
+body.dark-theme .publications__link:focus,
+body.dark-theme .publications__link:active {
+  color: #e0a80d;
+}
+
 .contact .contacts {
   padding-bottom: 50px;
   border-bottom: 2px solid #ececec;
@@ -844,7 +892,7 @@ body.dark-theme .theme-switcher svg path {
   font-size: 4.857rem;
   font-weight: 300;
   line-height: 1;
-  text-transform: lowercase;
+  text-transform: capitalize;
   margin-bottom: 5px;
 }
 

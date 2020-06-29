@@ -11269,14 +11269,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Base.js */ "./resources/js/Base.js");
 /* harmony import */ var _components_Settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Settings */ "./resources/js/components/Settings.js");
 /* harmony import */ var _components_ThemeSwitcher__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ThemeSwitcher */ "./resources/js/components/ThemeSwitcher.js");
-window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"); // window.$ = window.jQuery = require('jquery/dist/jquery.min');
-
- // import Portfolio from '../components/Portfolio';
+window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 
 
 new _Base_js__WEBPACK_IMPORTED_MODULE_0__["default"]().call(function () {
-  // new Portfolio();
   new _components_Settings__WEBPACK_IMPORTED_MODULE_1__["default"]();
   new _components_ThemeSwitcher__WEBPACK_IMPORTED_MODULE_2__["default"]();
 });

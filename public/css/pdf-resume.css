@@ -798,7 +798,7 @@ body.dark-theme .theme-switcher svg path {
   font-size: 4.857rem;
   font-weight: 300;
   line-height: 1;
-  text-transform: lowercase;
+  text-transform: capitalize;
   margin-bottom: 5px;
 }
 

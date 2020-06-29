@@ -16,7 +16,7 @@ return [
     'content'   => [
         'I like complex interactive web services, creating beautiful interfaces for user needs, and how it all works, helping to solve customer problems.',
         /*'I like complex interactive web services, creating the beautiful interface for users\' needs and make things working',*/
-        'In personal projects, I am interested in the transport theme and the automation of dispatchers.'
+        'In personal projects, I am interested in the transport theme and the automation of dispatchers\' work. Also I have several published articles on this topic.'
     ]
 
 ];
