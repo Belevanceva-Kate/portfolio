@@ -53,7 +53,7 @@ return [
                 [
                     'resource'  => 'Website',
                     'title'     => 'Blendtopia',
-                    'link'      => 'https://www.blendtopia.com'
+                    'link'      => 'https://blendtopia.com'
                 ]
             ],
             'handle'        => 'blendtopia',
@@ -81,21 +81,19 @@ return [
             'excerpt'       => [
                 'Shopify public app for selling codes'
             ],
-//            'links'         => [
-//                [
-//                    'resource'  => 'Shopify App Store',
-//                    'title'     => 'Foridev - Selling Codes app',
-//                    'link'      => '#'
-//                ]
-//            ],
-//            'site_title'    => 'Foridev - #1 Selling Codes app',
-//            'site_link'     => 'https://shopify/apps',
+            'links'         => [
+                [
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Foridev - Selling Codes app',
+                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                ]
+            ],
             'handle'        => 'codes',
             'description'   => [
                 'Application helps shop owners sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
                 'For example, a customer wants to buy a serial key for a game. After order payment, a letter will be sent to the client\'s email containing the product, the serial key and a link to activate it. He/she can also view this information in the personal account.',
                 'Application developed for the Shopify platform.',
-                'Currently being reviewed.'
+//                'Currently being reviewed.'
             ],
             'tools'         => [
                 'Shopify',

@@ -7,6 +7,7 @@
     @include('components.project-description')
     @include('components.project-links')
     @include('components.project-tools')
+{{--    @include('components.project-gallery')--}}
     @include('components.portfolio')
     @include('components.contact')
 

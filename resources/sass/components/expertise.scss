@@ -1,31 +1,31 @@
 .expertise {
 
     &__list {
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: -30px;
+        //display: flex;
+        //flex-wrap: wrap;
+        //margin-bottom: -30px;
     }
 
     &__item {
-        display: flex;
-        width: calc(50% - 10px);
-        margin-bottom: 30px;
+        //display: flex;
+        //width: calc(50% - 10px);
+        //margin-bottom: 30px;
         line-height: 1.7;
-
-        &:nth-of-type(even) {
-            margin-left: 20px;
-        }
+        //
+        //&:nth-of-type(even) {
+        //    margin-left: 20px;
+        //}
     }
 
     &__counter {
-        width: 40px;
-        font-size: 1.143rem;
-        font-weight: 700;
-        color: $color-accent-primary;
+        //width: 40px;
+        //font-size: 1.143rem;
+        //font-weight: 700;
+        //color: $color-accent-primary;
     }
 
     &__content {
-        width: calc(100% - 40px);
+        //width: calc(100% - 40px);
     }
 
     &__title {

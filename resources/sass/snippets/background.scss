@@ -1,33 +1,33 @@
 .background {
     position: absolute;
-    //height: 100%;
-    height: auto;
+    top: 0;
+    bottom: 0;
     width: 50%;
     z-index: -1;
 
     &--left {
-        &:nth-of-type(even) {
-            background-color: #f8f8f8;
-        }
-
-        &:nth-of-type(odd) {
-            background-color: #fbfbfb;
-        }
+        left: 0;
     }
 
     &--right {
-        &:nth-of-type(even) {
-            background-color: #fcfcfc;
-        }
-
-        &:nth-of-type(odd) {
-            background-color: #ffffff;
-        }
+        right: 0;
     }
 }
 
 .section {
-    &:nth-of-type(odd) {
+    position: relative;
+
+    &:nth-child(odd) {
+
+        .background {
+            &--left {
+                background-color: #fcfcfc;
+            }
+            &--right {
+                background-color: #ffffff;
+            }
+        }
+
         .section {
             &__left {
                 background-color: #fcfcfc;
@@ -39,7 +39,17 @@
         }
     }
 
-    &:nth-of-type(even) {
+    &:nth-child(even) {
+
+        .background {
+            &--left {
+                background-color: #f8f8f8;
+            }
+            &--right {
+                background-color: #fbfbfb;
+            }
+        }
+
         .section {
             &__left {
                 background-color: #f8f8f8;
@@ -58,30 +68,20 @@
 
 body {
     &.dark-theme {
-        .background {
-            &--left {
-                &:nth-of-type(even) {
-                    background-color: #292a2a;
-                }
-
-                &:nth-of-type(odd) {
-                    background-color: #2b2c2c;
-                }
-            }
-
-            &--right {
-                &:nth-of-type(even) {
-                    background-color: #2b2c2c;
-                }
-
-                &:nth-of-type(odd) {
-                    background-color: #2d2e2e;
-                }
-            }
-        }
 
         .section {
-            &:nth-of-type(even) {
+
+            &:nth-child(even) {
+
+                .background {
+                    &--left {
+                        background-color: #292a2a;
+                    }
+                    &--right {
+                        background-color: #2b2c2c;
+                    }
+                }
+
                 .section {
                     &__left {
                         background-color: #292a2a;
@@ -93,7 +93,17 @@ body {
                 }
             }
 
-            &:nth-of-type(odd) {
+            &:nth-child(odd) {
+
+                .background {
+                    &--left {
+                        background-color: #2b2c2c;
+                    }
+                    &--right {
+                        background-color: #2d2e2e;
+                    }
+                }
+
                 .section {
                     &__left {
                         background-color: #2b2c2c;
@@ -112,14 +122,15 @@ body {
 
 @media (max-width: $tablet) {
     .section {
+
         &:nth-of-type(odd) {
+
             .section {
                 &__left {
                     background-color: #fafafa;
                     border-top: 1px solid $color-line-divider-primary;
                     border-bottom: 1px solid $color-line-divider-primary;
                 }
-
                 &__right {
                     background-color: $color-background-primary;
                 }
@@ -127,13 +138,13 @@ body {
         }
 
         &:nth-of-type(even) {
+
             .section {
                 &__left {
                     background-color: #fafafa;
                     border-top: 1px solid $color-line-divider-primary;
                     border-bottom: 1px solid $color-line-divider-primary;
                 }
-
                 &__right {
                     background-color: $color-background-primary;
                 }
@@ -149,14 +160,15 @@ body {
         &.dark-theme {
 
             .section {
+
                 &:nth-of-type(even) {
+
                     .section {
                         &__left {
                             background-color: #292a2a;
                             border-top: 1px solid $color-line-divider-secondary;
                             border-bottom: 1px solid $color-line-divider-secondary;
                         }
-
                         &__right {
                             background-color: $color-background-secondary;
                         }
@@ -164,13 +176,13 @@ body {
                 }
 
                 &:nth-of-type(odd) {
+
                     .section {
                         &__left {
                             background-color: #282929;
                             border-top: 1px solid $color-line-divider-secondary;
                             border-bottom: 1px solid $color-line-divider-secondary;
                         }
-
                         &__right {
                             background-color: $color-background-secondary;
                         }

@@ -1,4 +1,3 @@
-// portfolio__description-toggler
 import Base from '../Base.js';
 
 export default class Portfolio extends Base {

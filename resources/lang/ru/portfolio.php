@@ -53,11 +53,11 @@ return [
                 [
                     'resource'  => 'Сайт',
                     'title'     => 'Blendtopia',
-                    'link'      => 'https://www.blendtopia.com'
+                    'link'      => 'https://blendtopia.com'
                 ]
             ],
             'handle'        => 'blendtopia',
-            'banner'        => '/img/projects/blendtopia.png',
+//            'banner'        => '/img/projects/blendtopia.png',
             'description'   => [
                 'Это бизнес по продаже суперфудов.',
                 'Целью проекта было реализовать сбор продуктов в боксы и дать клиенту выбор: \'подписаться\' на постоянную доставку или совершить единоразовую покупку. После подтверждения заказа доставку можно будет редактировать.',
@@ -78,18 +78,23 @@ return [
                 'Публичное Shopify приложение для продажи кодов'
             ],
             'links'         => [
-//                [
-//                    'resource'  => 'Shopify App Store',
-//                    'title'     => 'Foridev - Selling Codes app',
-//                    'link'      => '#'
-//                ]
+                [
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Foridev - Selling Codes app',
+                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                ]
             ],
             'handle'        => 'codes',
             'description'   => [
                 'Приложение помогает сторхолдерам реализовывать серийные ключи. С помощью приложения они могут закреплять их за каким-то продуктом, а также хранить мультиязычные ссылки для их активации.',
                 'Например, клиент хочет купить серийный ключ для игры. После произведения оплаты ему на почту приходит письмо, в котором указывается продукт, серийный ключ к нему и ссылка на активацию. Также он может просмотреть эту информацию в своем личном аккаунте.',
                 'Приложение, разработанное под платформу Shopify.',
-                'На данный момент проходит ревью.'
+//                'На данный момент проходит ревью.'
+            ],
+            'images'        => [
+                '/img/projects/codes/app-product-page-1.png',
+                '/img/projects/codes/app-product-page-2.png',
+                '/img/projects/codes/customer-view.png'
             ],
             'tools'         => [
                 'Shopify',
@@ -146,52 +151,5 @@ return [
             'icon'          => 'icons.projects.sync'
         ]
     ]
-
-    /*'list'  => [
-
-        'blendtopia' => [
-            'title'         => 'Blendtopia. Organic superfoods smoothies',
-            'site_title'    => 'Blendtopia',
-            'site_link'     => 'https://www.blendtopia.com',
-            'description'   => [
-                // 'Блендтопиа - это бизнес по продаже смузи.',
-                'Это бизнес по продаже смузи. Они порционные.',
-                'Заказ можно осуществлять боксами, размер которых 8, 12, 16 и 24 смузи. Каждый бокс можно просто купить, либо "подписаться" на него. То есть можно получать их каждые 1, 2, 4 или 6 недель.',
-                'Есть несколько типов боксов: предопределенный и наборной. Первый из них имеет уже готовый набор смузи по вкусам и количеству. Второй - дает возможность пользователю самому выбрать сколько и какие вкусы он хочет купить.',
-                'Для этого проекта создавался уникальный дизайн и бокс-билдер. Была разработана Front-End часть, а также Back-End, который помогал плагину подписок правильно интерпретировать боксы.'
-            ],
-            'tools'         => 'Shopify,  Laravel, Subscriptions by ReCharge App'
-        ],
-
-        'codes' => [
-            'title'         => 'Selling Codes App',
-            'site_title'    => 'Foridev - #1 Selling Codes app',
-            'site_link'     => 'https://shopify/apps',
-            'description'   => [
-                'Приложение, разработанное под платформу Shopify.',
-                'Оно помогает сторхолдерам реализовывать серийные ключи. С помощью приложения они могут закреплять их за каким-то продуктом, а также хранить мультиязычные ссылки для их активации.',
-                'Например, клиент хочет купить серийный ключ для игры. После произведения оплаты, ему на почту приходит письмо, в котором указывается продукт, серийный ключ к нему и ссылка на активацию. Также он может просмотреть эту информацию в своей личном аккаунте.'
-            ],
-            'tools'         => 'Shopify, Laravel'
-        ],
-
-        'cannago' => [
-            'title'         => 'CannaGo. Cannabidiol shop',
-            'site_title'    => 'https://cannago.co.uk/',
-            'site_link'     => 'CannaGo',
-            'description'   => [
-                'Front-end of the site'
-            ],
-            'tools'         => 'Shopify'
-        ],
-
-        'marketplace-genie' => [
-            'title'         => 'Marketplace Genie',
-            'description'   => [
-                'HighLoad app. Sync two stores. one of them is takealot shop. And another'
-            ],
-            'tools'         => 'Shopify + PHP'
-        ]
-    ]*/
 
 ];

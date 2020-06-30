@@ -77,6 +77,16 @@ body {
 
         .section {
 
+            &__left {
+
+                .section {
+
+                    &__content {
+                        padding: 15px;
+                    }
+                }
+            }
+
             &__right {
 
                 .section {

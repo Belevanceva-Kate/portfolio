@@ -12,11 +12,15 @@
             <div class="section__right">
                 <div class="section__content">
                     @if (Lang::has('publications.list') && !empty(Lang::get('publications.list')))
-                        <ul class="publications__list">
+                        <ul class="publications__list list">
                             @foreach(__('publications.list') as $key => $item)
-                                <li class="publications__item">
+                                <li class="publications__item list__item">
                                     @if (!empty($item['title']))
-                                        <a href="{{ $item['link'] }}" class="publications__link section__title">
+                                        <a
+                                            href="{{ $item['link'] }}"
+                                            class="publications__link section__title"
+                                            target="_blank"
+                                        >
                                             @if(!empty($item['language']['code']) && app()->getLocale() != $item['language']['code'])
                                                 <span>{{ $item['title'] }}</span>
                                                 <br>
@@ -26,9 +30,6 @@
                                             @endif
                                         </a>
                                     @endif
-                                    {{--@if (!empty($item['heading']))
-                                        <p class="publications__heading">{{ $item['heading'] }}</p>
-                                    @endif--}}
                                     @if (!empty($item['heading']))
                                         <p class="publications__heading">
                                             @if(!empty($item['heading']) && app()->getLocale() != $item['language']['code'])

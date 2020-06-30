@@ -1,4 +1,4 @@
-{{--@if(!empty($expertise))--}}
+@if(!empty($conferences))
     <section class="section conferences">
         @include('snippets.background')
         <div class="container section__container">
@@ -11,7 +11,41 @@
             </div>
             <div class="section__right">
                 <div class="section__content">
-                    <ul class="conferences__list">
+                    @if (Lang::has('conferences.list') && !empty(Lang::get('conferences.list')))
+                        <ul class="conferences__list counter">
+                            @foreach($conferences as $key => $item)
+                                <li class="conferences__item counter__item">
+
+                                    <div class="counter__digits">
+                                        @if(($key + 1) < 10)
+                                            <span>0{{ ++$key }}</span>
+                                        @else
+                                            <span>{{ ++$key }}</span>
+                                        @endif
+                                    </div>
+
+                                    <div class="counter__content">
+                                        @if (Lang::has('conferences.list.' . $item . '.title' ) &&
+                                        !empty(Lang::get('conferences.list.' . $item . '.title' )))
+                                            <p class="conferences__title section__title">{{ __('conferences.list.' . $item . '.title' ) }}</p>
+                                        @endif
+                                        @if (Lang::has('conferences.list.' . $item . '.role' ) &&
+                                            !empty(Lang::get('conferences.list.' . $item . '.role' )))
+                                            <p class="conferences__role">{{ __('conferences.list.' . $item . '.role' ) }}</p>
+                                        @endif
+                                        @if (Lang::has('conferences.list.' . $item . '.info') && !empty(Lang::get('conferences.list.' . $item . '.info')))
+                                            <div class="conferences__info">
+                                                @foreach(__('conferences.list.' . $item . '.info') as $paragraph)
+                                                    <p>{{ $paragraph }}</p>
+                                                @endforeach
+                                            </div>
+                                        @endif
+                                    </div>
+
+                                </li>
+                            @endforeach
+                        </ul>
+                    @endif
                         {{--@foreach($expertise as $key => $item)
                             @if (Lang::has('expertise.list.' . $item) && !empty(Lang::get('expertise.list.' . $item)))
                                 <li class="expertise__item">
@@ -46,9 +80,9 @@
                                 </li>
                             @endif
                         @endforeach--}}
-                    </ul>
+
                 </div>
             </div>
         </div>
     </section>
-{{--@endif--}}
+@endif

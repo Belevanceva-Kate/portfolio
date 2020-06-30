@@ -11,6 +11,6 @@
     <body class="{{ $theme . '-theme' }}">
         @yield('main_content')
 
-        <script src="{{ asset('js/index.js') }}"></script>
+        <script src="@if(isset($page)) {{ asset('js/' . $page . '.js') }} @else {{ asset('js/index.js') }} @endif"></script>
     </body>
 </html>

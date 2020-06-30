@@ -1,0 +1,21 @@
+.conferences {
+
+    //&__title {
+    //    margin-bottom: 10px;
+    //}
+
+    &__item {
+
+        p {
+
+            &:not(:last-of-type) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    &__info {
+        margin-top: 10px;
+    }
+
+}

@@ -23,6 +23,7 @@ class IndexController extends Controller
         $education      = ['master', 'bachelor', 'school'];
         $expertise      = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages'];
         $portfolio      = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $conferences    = ['lviv_it_arena_2019', 'mrpl_it_conf_2019', 'mrpl_it_conf_2018', 'kharkiv_css_3'];
 
         $this->assign('page', $page);
         $this->assign('contacts', $contacts);
@@ -31,6 +32,7 @@ class IndexController extends Controller
         $this->assign('education', $education);
         $this->assign('expertise', $expertise);
         $this->assign('portfolio', $portfolio);
+        $this->assign('conferences', $conferences);
 
         return view('pages.index');
     }

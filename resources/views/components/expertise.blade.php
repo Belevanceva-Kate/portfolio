@@ -11,12 +11,12 @@
             </div>
             <div class="section__right">
                 <div class="section__content">
-                    <ul class="expertise__list">
+                    <ul class="expertise__list counter">
                         @foreach($expertise as $key => $item)
                             @if (Lang::has('expertise.list.' . $item) && !empty(Lang::get('expertise.list.' . $item)))
-                                <li class="expertise__item">
+                                <li class="expertise__item counter__item">
 
-                                    <div class="expertise__counter">
+                                    <div class="counter__digits">
                                         @if(($key + 1) < 10)
                                             <span>0{{ ++$key }}</span>
                                         @else
@@ -24,7 +24,7 @@
                                         @endif
                                     </div>
 
-                                    <div class="expertise__content">
+                                    <div class="counter__content">
                                         @if (Lang::has('expertise.list.' . $item . '.list') &&
                                             !empty(Lang::get('expertise.list.' . $item . '.list')))
                                             <p class="expertise__title section__title">{{ __('expertise.list.' . $item . '.title') }}</p>
