@@ -170,6 +170,20 @@ body.dark-theme .counter__digits {
   }
 }
 
+@media (max-width: 768px) {
+  .counter {
+    flex-direction: column;
+  }
+
+  .counter__item {
+    width: 100%;
+  }
+
+  .counter__item:nth-of-type(even) {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 576px) {
   .container {
     padding: 0;
@@ -372,11 +386,11 @@ body.dark-theme .settings__block {
 }
 
 .education.section:nth-of-type(odd) .education__item:before {
-  border: 10px solid #ffffff;
+  border: 10px solid #fbfbfb;
 }
 
 .education.section:nth-of-type(even) .education__item:before {
-  border: 10px solid #fbfbfb;
+  border: 10px solid #ffffff;
 }
 
 body.dark-theme .education__info,
@@ -386,21 +400,29 @@ body.dark-theme .education__area {
 
 body.dark-theme .education.section:nth-of-type(odd) .education__item:before {
   background-color: #e0a80d;
-  border: 10px solid #2d2e2e;
+  border: 10px solid #2b2c2c;
 }
 
 body.dark-theme .education.section:nth-of-type(even) .education__item:before {
   background-color: #e0a80d;
-  border: 10px solid #2b2c2c;
+  border: 10px solid #2d2e2e;
 }
 
 @media (max-width: 992px) {
-  .experience.section:nth-of-type(odd) .experience__item:before {
+  .education.section:nth-of-type(odd) .education__item:before {
     border: 10px solid #ffffff;
   }
 
-  .experience.section:nth-of-type(even) .experience__item:before {
+  .education.section:nth-of-type(even) .education__item:before {
     border: 10px solid #ffffff;
+  }
+
+  body.dark-theme .education.section:nth-of-type(odd) .education__item:before {
+    border: 10px solid #2d2e2e;
+  }
+
+  body.dark-theme .education.section:nth-of-type(even) .education__item:before {
+    border: 10px solid #2d2e2e;
   }
 }
 
@@ -450,21 +472,21 @@ body.dark-theme .education.section:nth-of-type(even) .education__item:before {
 }
 
 .experience.section:nth-of-type(odd) .experience__item:before {
-  border: 10px solid #ffffff;
+  border: 10px solid #fbfbfb;
 }
 
 .experience.section:nth-of-type(even) .experience__item:before {
-  border: 10px solid #fbfbfb;
+  border: 10px solid #ffffff;
 }
 
 body.dark-theme .experience.section:nth-of-type(odd) .experience__item:before {
   background-color: #e0a80d;
-  border: 10px solid #2d2e2e;
+  border: 10px solid #2b2c2c;
 }
 
 body.dark-theme .experience.section:nth-of-type(even) .experience__item:before {
   background-color: #e0a80d;
-  border: 10px solid #2b2c2c;
+  border: 10px solid #2d2e2e;
 }
 
 @media (max-width: 992px) {
@@ -521,10 +543,6 @@ body.dark-theme .experience.section:nth-of-type(even) .experience__item:before {
   border-radius: 50%;
   background-color: #F8BB10;
   vertical-align: middle;
-}
-
-body.dark-theme .expertise__counter {
-  color: #e0a80d;
 }
 
 body.dark-theme .skills__item:before {
@@ -652,67 +670,67 @@ body.dark-theme .portfolio__title:active {
 }
 
 .section:nth-child(odd) .background--left {
-  background-color: #fcfcfc;
+  background-color: #f8f8f8;
 }
 
 .section:nth-child(odd) .background--right {
-  background-color: #ffffff;
+  background-color: #fbfbfb;
 }
 
 .section:nth-child(odd) .section__left {
-  background-color: #fcfcfc;
+  background-color: #f8f8f8;
 }
 
 .section:nth-child(odd) .section__right {
-  background-color: #ffffff;
+  background-color: #fbfbfb;
 }
 
 .section:nth-child(even) .background--left {
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
 }
 
 .section:nth-child(even) .background--right {
-  background-color: #fbfbfb;
+  background-color: #ffffff;
 }
 
 .section:nth-child(even) .section__left {
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
 }
 
 .section:nth-child(even) .section__right {
-  background-color: #fbfbfb;
+  background-color: #ffffff;
 }
 
 body.dark-theme .section:nth-child(even) .background--left {
-  background-color: #292a2a;
+  background-color: #2b2c2c;
 }
 
 body.dark-theme .section:nth-child(even) .background--right {
-  background-color: #2b2c2c;
+  background-color: #2d2e2e;
 }
 
 body.dark-theme .section:nth-child(even) .section__left {
-  background-color: #292a2a;
+  background-color: #2b2c2c;
 }
 
 body.dark-theme .section:nth-child(even) .section__right {
-  background-color: #2b2c2c;
+  background-color: #2d2e2e;
 }
 
 body.dark-theme .section:nth-child(odd) .background--left {
-  background-color: #2b2c2c;
+  background-color: #292a2a;
 }
 
 body.dark-theme .section:nth-child(odd) .background--right {
-  background-color: #2d2e2e;
-}
-
-body.dark-theme .section:nth-child(odd) .section__left {
   background-color: #2b2c2c;
 }
 
+body.dark-theme .section:nth-child(odd) .section__left {
+  background-color: #292a2a;
+}
+
 body.dark-theme .section:nth-child(odd) .section__right {
-  background-color: #2d2e2e;
+  background-color: #2b2c2c;
 }
 
 @media (max-width: 992px) {

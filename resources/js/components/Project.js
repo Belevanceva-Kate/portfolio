@@ -1,42 +1,51 @@
 import Base from '../Base.js';
-// import fancybox from '@fancyapps/fancybox';
-// import fancybox from '@fancyapps/fancybox/dist/jquery.fancybox';
-// import '@fancyapps/fancybox';
-// var fancybox = require("fancybox")($);
-// import fancybox from 'fancybox';
+// import $ from 'jquery'; window.jQuery = $; window.$ = $;
+
+// require('@fancyapps/fancybox/dist/jquery.fancybox.min')($);
+// var fancybox = require('@fancyapps/fancybox/dist/jquery.fancybox.min')($);
+
+import fancybox from '@fancyapps/fancybox/dist/jquery.fancybox.min';
 
 export default class Project extends Base {
 
     initDOMElements(e) {
 
         this.classes = {
-            // _settings:          '.settings',
-            // _settingsToggler:   '.settings__toggler',
-            // _settingsBlock:     '.settings__block'
+            _galleryItem: '[data-fancybox="gallery"]',
         }
 
         this.els = {
-            // _settings:          $(this.classes._settings),
-            // _settingsToggler:   $(this.classes._settingsToggler),
-            // _settingsBlock:     $(this.classes._settingsBlock)
+            _galleryItem: $(this.classes._galleryItem),
         }
     }
 
     onDOMReady(e) {
-        console.log('ghjk');
-        // $('[data-fancybox="gallery"]').fancybox({
-        //     // Options will go here
-        // });
 
-        // console.log(fancybox);
-        // this.els._settingsToggler.click((e) => this.toggleSettings(e));
-        // this.baseDOM._window.click((e)      => this.closeSettingsByClickOutside(e));
+        // $('[data-fancybox="gallery"]').fancybox({});
+        // this.els._galleryItem.fancybox();
+
     }
-
-    // toggleSettings(e) {
-    //     e.preventDefault();
-    //
-    //     this.els._settingsBlock.fadeToggle();
-    //     this.els._settingsBlock.parents(this.classes._settings).toggleClass('active');
-    // }
 }
+
+
+
+
+
+
+// require('@fancyapps/fancybox/dist/jquery.fancybox.min');
+
+// var $ = require('jquery');
+// window.$ = window.jQuery = require('jquery');
+// require('fancybox')($);
+
+// $(document).ready(function() {
+//     $.fancybox.open($('.fancybox-me'));
+// });
+
+// import fancybox from '@fancyapps/fancybox/dist/jquery.fancybox.min';
+// import fancybox from '@fancyapps/fancybox';
+// import fancybox from '@fancyapps/fancybox/dist/jquery.fancybox';
+// import '@fancyapps/fancybox';
+// var $ = require('jQuery');
+// var fancybox = require('@fancyapps/fancybox')($);
+// import fancybox from 'fancybox';

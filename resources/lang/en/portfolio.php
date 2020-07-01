@@ -29,7 +29,7 @@ return [
                 [
                     'resource'  => 'Website',
                     'title'     => 'Portfolio',
-                    'link'      => '#'
+                    'link'      => 'https://belekate.tk'
                 ]
             ],
             'handle'        => 'portfolio',
@@ -68,6 +68,43 @@ return [
 //                'There are several types of boxes: predefined and custom. The first one has a ready-made set of smoothies by taste and quantity. The second - allows the user to choose how much and what tastes he/she wants to buy.',
 //                'A unique design and box builder has been created for this project. The Front-End part was developed, as well as the Back-End, which helped the subscription plugin interpret the boxes correctly.'
             ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/blendtopia/full/home.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/product.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/choose_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/choose_box-min.png',
+                    'title' => 'Choose Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/predefined_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/predefined_box-min.png',
+                    'title' => 'Predefined Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/custom_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/custom_box-min.png',
+                    'title' => 'Custom Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/quick_view.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/quick_view-min.png',
+                    'title' => 'Quick View'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/subscription.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/subscription-min.png',
+                    'title' => 'Subscription'
+                ]
+            ],
             'tools'         => [
                 'Shopify',
                 'Laravel',
@@ -95,6 +132,23 @@ return [
                 'Application developed for the Shopify platform.',
 //                'Currently being reviewed.'
             ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/codes/full/app-product-page-1.png',
+                    'src_compressed' => '/img/projects/codes/compressed/app-product-page-1-min.png',
+                    'title' => 'Product Page 1'
+                ],
+                [
+                    'src_full' => '/img/projects/codes/full/app-product-page-2.png',
+                    'src_compressed' => '/img/projects/codes/compressed/app-product-page-2-min.png',
+                    'title' => 'Product Page 2'
+                ],
+                [
+                    'src_full' => '/img/projects/codes/full/customer-view.png',
+                    'src_compressed' => '/img/projects/codes/compressed/customer-view-min.png',
+                    'title' => 'Customer view'
+                ]
+            ],
             'tools'         => [
                 'Shopify',
                 'Laravel'
@@ -117,6 +171,33 @@ return [
             'handle'        => 'cannago',
             'description'   => [
                 'A business that specializes in the sale of cannabidiol. It has many products with this component available for the clients as well as for their pets. Users can also view laboratory test results for each product.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/cannago/full/home.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/shop.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/shop-min.png',
+                    'title' => 'Shop'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/quick_view.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/quick_view-min.png',
+                    'title' => 'Quick View'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/product.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/learn.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/learn-min.png',
+                    'title' => 'Learn'
+                ]
             ],
             'tools'         => [
                 'Shopify'

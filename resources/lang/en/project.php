@@ -14,6 +14,7 @@ return [
     'title'         => 'Project',
     'description'   => 'Description',
     'links'         => 'Links',
-    'tools'         => 'Tools'
+    'tools'         => 'Tools',
+    'gallery'       => 'Gallery'
 
 ];

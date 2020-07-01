@@ -1,10 +1,13 @@
 @import '../global/main';
 
+@import '@fancyapps/fancybox/dist/jquery.fancybox.min';
+
 @import '../components/settings';
 @import '../components/project-header';
 @import '../components/project-description';
 @import '../components/project-links';
 @import '../components/project-tools';
+@import '../components/project-gallery';
 @import '../components/portfolio';
 @import '../components/contact';
 

@@ -3,10 +3,6 @@
 @section('content')
     {{--    @include('components.back-action', ['backURL' => '/orders'])--}}
 
-{{--    @include('components.localization')--}}
-
-{{--    @include('components.theme_switcher')--}}
-
     @include('components.settings')
     @include('components.header')
     @include('components.profile')

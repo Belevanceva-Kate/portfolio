@@ -45,7 +45,7 @@
             .education {
                 &__item {
                     &:before {
-                        border: 10px solid #ffffff;
+                        border: 10px solid #fbfbfb;
                     }
                 }
             }
@@ -55,7 +55,7 @@
             .education {
                 &__item {
                     &:before {
-                        border: 10px solid #fbfbfb;
+                        border: 10px solid #ffffff;
                     }
                 }
             }
@@ -84,7 +84,7 @@ body {
                         &__item {
                             &:before {
                                 background-color: $color-accent-secondary;
-                                border: 10px solid #2d2e2e;
+                                border: 10px solid #2b2c2c;
                             }
                         }
                     }
@@ -95,7 +95,7 @@ body {
                         &__item {
                             &:before {
                                 background-color: $color-accent-secondary;
-                                border: 10px solid #2b2c2c;
+                                border: 10px solid #2d2e2e;
                             }
                         }
                     }
@@ -108,12 +108,12 @@ body {
 
 
 @media (max-width: $tablet) {
-    .experience {
+    .education {
 
         &.section {
 
             &:nth-of-type(odd) {
-                .experience {
+                .education {
                     &__item {
                         &:before {
                             border: 10px solid #ffffff;
@@ -123,10 +123,44 @@ body {
             }
 
             &:nth-of-type(even) {
-                .experience {
+                .education {
                     &__item {
                         &:before {
                             border: 10px solid #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // THEME DARK
+
+    body {
+        &.dark-theme {
+            .education {
+
+                &.section {
+
+                    &:nth-of-type(odd) {
+                        .education {
+                            &__item {
+                                &:before {
+                                    border: 10px solid $color-background-secondary;
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-of-type(even) {
+                        .education {
+                            &__item {
+                                &:before {
+                                    border: 10px solid $color-background-secondary;
+                                }
+                            }
                         }
                     }
                 }

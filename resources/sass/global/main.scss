@@ -177,6 +177,20 @@ body {
     }
 }
 
+@media (max-width: $landscape-phone) {
+    .counter {
+        flex-direction: column;
+
+        &__item {
+            width: 100%;
+
+            &:nth-of-type(even) {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
 @media (max-width: $portrait-phone) {
     .container {
         padding: 0;

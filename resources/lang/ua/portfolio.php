@@ -29,7 +29,7 @@ return [
                 [
                     'resource'  => 'Сайт',
                     'title'     => 'Portfolio',
-                    'link'      => '#'
+                    'link'      => 'https://belekate.tk'
                 ]
             ],
             'handle'        => 'portfolio',
@@ -64,6 +64,43 @@ return [
                 'Є кілька типів боксів: заздалегідь сформовані та кастомні. Перший з них має вже готовий набір продуктів за смаками і кількістю. Другий - дає можливість користувачу самому вибрати скільки і які смаки він хоче купити.',
                 'Для цього проекту створювався унікальний дизайн і бокс-білдер. Була розроблена Front-End частина, а також Back-End, який допомагав плагіну підписок правильно інтерпретувати бокси.'
             ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/blendtopia/full/home.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/product.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/choose_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/choose_box-min.png',
+                    'title' => 'Choose Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/predefined_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/predefined_box-min.png',
+                    'title' => 'Predefined Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/custom_box.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/custom_box-min.png',
+                    'title' => 'Custom Box'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/quick_view.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/quick_view-min.png',
+                    'title' => 'Quick View'
+                ],
+                [
+                    'src_full' => '/img/projects/blendtopia/full/subscription.png',
+                    'src_compressed' => '/img/projects/blendtopia/compressed/subscription-min.png',
+                    'title' => 'Subscription'
+                ]
+            ],
             'tools'         => [
                 'Shopify',
                 'Laravel',
@@ -91,6 +128,23 @@ return [
                 'Додаток розроблий під платформу Shopify.',
 //                'На даний момент проходить рев\'ю від Shopify.'
             ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/codes/full/app-product-page-1.png',
+                    'src_compressed' => '/img/projects/codes/compressed/app-product-page-1-min.png',
+                    'title' => 'Product Page 1'
+                ],
+                [
+                    'src_full' => '/img/projects/codes/full/app-product-page-2.png',
+                    'src_compressed' => '/img/projects/codes/compressed/app-product-page-2-min.png',
+                    'title' => 'Product Page 2'
+                ],
+                [
+                    'src_full' => '/img/projects/codes/full/customer-view.png',
+                    'src_compressed' => '/img/projects/codes/compressed/customer-view-min.png',
+                    'title' => 'Customer view'
+                ]
+            ],
             'tools'         => [
                 'Shopify',
                 'Laravel'
@@ -113,6 +167,33 @@ return [
             'handle'        => 'cannago',
             'description'   => [
                 'Бізнес, який спеціалізується на продажу каннабідіола. Клієнтам надається безліч продуктів з цього компонента, в тому числі і для тварин. Також користувачі можуть ознайомитись з результатами лабораторних тестів кожного продукту.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/cannago/full/home.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/shop.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/shop-min.png',
+                    'title' => 'Shop'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/quick_view.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/quick_view-min.png',
+                    'title' => 'Quick View'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/product.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/cannago/full/learn.png',
+                    'src_compressed' => '/img/projects/cannago/compressed/learn-min.png',
+                    'title' => 'Learn'
+                ]
             ],
             'tools'         => [
                 'Shopify'

@@ -21,42 +21,43 @@
 
         .background {
             &--left {
-                background-color: #fcfcfc;
+                background-color: #f8f8f8;
             }
             &--right {
-                background-color: #ffffff;
+                background-color: #fbfbfb;
             }
         }
 
         .section {
             &__left {
-                background-color: #fcfcfc;
+                background-color: #f8f8f8;
             }
 
             &__right {
-                background-color: #ffffff;
+                background-color: #fbfbfb;
             }
         }
+
     }
 
     &:nth-child(even) {
 
         .background {
             &--left {
-                background-color: #f8f8f8;
+                background-color: #fcfcfc;
             }
             &--right {
-                background-color: #fbfbfb;
+                background-color: #ffffff;
             }
         }
 
         .section {
             &__left {
-                background-color: #f8f8f8;
+                background-color: #fcfcfc;
             }
 
             &__right {
-                background-color: #fbfbfb;
+                background-color: #ffffff;
             }
         }
     }
@@ -75,20 +76,20 @@ body {
 
                 .background {
                     &--left {
-                        background-color: #292a2a;
+                        background-color: #2b2c2c;
                     }
                     &--right {
-                        background-color: #2b2c2c;
+                        background-color: #2d2e2e;
                     }
                 }
 
                 .section {
                     &__left {
-                        background-color: #292a2a;
+                        background-color: #2b2c2c;
                     }
 
                     &__right {
-                        background-color: #2b2c2c;
+                        background-color: #2d2e2e;
                     }
                 }
             }
@@ -97,20 +98,20 @@ body {
 
                 .background {
                     &--left {
-                        background-color: #2b2c2c;
+                        background-color: #292a2a;
                     }
                     &--right {
-                        background-color: #2d2e2e;
+                        background-color: #2b2c2c;
                     }
                 }
 
                 .section {
                     &__left {
-                        background-color: #2b2c2c;
+                        background-color: #292a2a;
                     }
 
                     &__right {
-                        background-color: #2d2e2e;
+                        background-color: #2b2c2c;
                     }
                 }
             }
