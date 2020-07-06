@@ -6,6 +6,7 @@
         <title>@if(isset($title)) {{ $title }} @else Resume @endif</title>
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
         <link href="@if(isset($page)) {{ asset('css/' . $page . '.css') }} @else {{ asset('css/index.css') }} @endif" rel="stylesheet">
+        <link rel="stylesheet" media="print" href="{{ asset('css/print.css') }}" />
     </head>
 
     <body class="{{ $theme . '-theme' }}">

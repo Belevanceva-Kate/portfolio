@@ -6,6 +6,9 @@
                 <div class="header__image">
                     <img src="/img/photo.png" alt="photo">
                 </div>
+                <div class="qrcode">
+                    @include('icons.contacts.qrcode')
+                </div>
             </div>
         </div>
         <div class="section__right">

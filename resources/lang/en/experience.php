@@ -20,8 +20,10 @@ return [
             'company'       => 'Foridev',
             'date'          => '09.2019 – present',
             'description'   => [
-                'Worked on internal projects of the company, outsourced projects, and was an outstaff employee.',
-                'Mostly developed in PHP and interacted with Shopify when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
+//                'I have worked ... I have '
+                'I have been working on internal projects of the company, outsourced projects, and I have been an outstaff employee.',
+                'Mostly I have worked out apps for Shopify platform in PHP. I prefer Laravel as a framework for creating plugins. Besides I have created Shopify themes.',
+//                'Mostly developed in PHP and interacted with Shopify when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
             ]
         ],
 
@@ -30,8 +32,8 @@ return [
             'company'       => 'ohmycode!',
             'date'          => '03.2018 – 07.2019',
             'description'   => [
-                'Engaged in the development of interfaces for various sites, developed themes for the Shopify platform.',
-                'Tried my hand at writing the Back-End part of the cryptocurrency exchange (Node.js, Redis).'
+                'I have been engaged into the development of interfaces for various sites, elaborating themes for the Shopify platform.',
+                'I have tried my hand at writing the Back-End part of the cryptocurrency exchange (Node.js, Redis).'
             ]
         ]
     ]

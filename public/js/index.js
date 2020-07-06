@@ -11302,6 +11302,17 @@ new _Base_js__WEBPACK_IMPORTED_MODULE_0__["default"]().call(function () {
 
 /***/ }),
 
+/***/ "./resources/sass/pages/print.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/pages/print.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/pages/project.scss":
 /*!*******************************************!*\
   !*** ./resources/sass/pages/project.scss ***!
@@ -11314,16 +11325,17 @@ new _Base_js__WEBPACK_IMPORTED_MODULE_0__["default"]().call(function () {
 /***/ }),
 
 /***/ 0:
-/*!************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/pages/index.js ./resources/sass/pages/index.scss ./resources/sass/pages/project.scss ./resources/sass/pages/pdf/pdf-resume.scss ***!
-  \************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/pages/index.js ./resources/sass/pages/index.scss ./resources/sass/pages/project.scss ./resources/sass/pages/pdf/pdf-resume.scss ./resources/sass/pages/print.scss ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/kate/projects/portfolio/resources/js/pages/index.js */"./resources/js/pages/index.js");
 __webpack_require__(/*! /home/kate/projects/portfolio/resources/sass/pages/index.scss */"./resources/sass/pages/index.scss");
 __webpack_require__(/*! /home/kate/projects/portfolio/resources/sass/pages/project.scss */"./resources/sass/pages/project.scss");
-module.exports = __webpack_require__(/*! /home/kate/projects/portfolio/resources/sass/pages/pdf/pdf-resume.scss */"./resources/sass/pages/pdf/pdf-resume.scss");
+__webpack_require__(/*! /home/kate/projects/portfolio/resources/sass/pages/pdf/pdf-resume.scss */"./resources/sass/pages/pdf/pdf-resume.scss");
+module.exports = __webpack_require__(/*! /home/kate/projects/portfolio/resources/sass/pages/print.scss */"./resources/sass/pages/print.scss");
 
 
 /***/ })

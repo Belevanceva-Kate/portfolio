@@ -16,5 +16,5 @@ return [
 
     'title'     => 'Бєлєванцева',
     'subtitle'  => 'Катерина',
-    'content'  => 'Full-Stack Developer'
+    'content'   => 'Full-Stack Developer'
 ];

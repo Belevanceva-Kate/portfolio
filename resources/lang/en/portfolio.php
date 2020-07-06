@@ -34,8 +34,8 @@ return [
             ],
             'handle'        => 'portfolio',
             'description'   => [
-                'Web profile describing experience and skills. It allows the user to view detailed information about technologies that were used in the project.',
-                'The user can switch dark or light mode, as well as switch languages in the settings.'
+                'Web profile describes experience and skills. It allows the user to view detailed information about technologies that were used in the project.',
+                'The user can switch dark or light mode, as well as choose languages in the settings.'
             ],
             'tools'         => [
                 'Laravel',
@@ -59,8 +59,8 @@ return [
             'handle'        => 'blendtopia',
 //            'banner'        => '/img/projects/blendtopia.png',
             'description'   => [
-                'This is a superfood business.',
-                'The goal of the project was to realize product boxes assembly to give the customer a chance to either \'subscribe\' to a constant supply or make a one-time purchase. The client could edit the subscription.',
+                'This is superfood business.',
+                'The goal of the project was to realize product boxes assembly to give the customer a chance either to \'subscribe\' a constant supply or to make a one-time purchase. The client could edit the subscription.',
                 'There are several types of boxes: predefined and custom. The first one has a ready-made set of products by flavours and quantity. The second allows the user to choose how much and what flavours he/she wants to buy.',
                 'A unique design and box builder was created for this project. Custom layout was developed implementing the Back-End part which helped the subscription plugin interpret the boxes correctly.'
 //                'This is a smoothie business. They are portioned.',
@@ -127,9 +127,9 @@ return [
             ],
             'handle'        => 'codes',
             'description'   => [
-                'Application helps shop owners sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
-                'For example, a customer wants to buy a serial key for a game. After order payment, a letter will be sent to the client\'s email containing the product, the serial key and a link to activate it. He/she can also view this information in the personal account.',
-                'Application developed for the Shopify platform.',
+                'Application helps shop owners to sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
+                'For example, a customer wants to buy a serial key for a game. After paying the order, a letter will be sent to the client\'s email containing the product, the serial key and the link to activate it. He/she can also view this information in the personal account.',
+                'Application was developed for the Shopify platform.',
 //                'Currently being reviewed.'
             ],
             'images'        => [
@@ -170,7 +170,7 @@ return [
             ],
             'handle'        => 'cannago',
             'description'   => [
-                'A business that specializes in the sale of cannabidiol. It has many products with this component available for the clients as well as for their pets. Users can also view laboratory test results for each product.'
+                'Business that specializes in the sale of cannabidiol. It has got many products with this component available for the clients as well as for their pets. Users can also view laboratory test results for each product.'
             ],
             'images'        => [
                 [

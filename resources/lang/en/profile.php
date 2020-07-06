@@ -14,9 +14,10 @@ return [
     'title'     => 'Profile',
 
     'content'   => [
-        'I like complex interactive web services, creating beautiful interfaces for user needs, and how it all works, helping to solve customer problems.',
+        'I like complex interactive web services, creating amazing interfaces for user needs, helping to solve customer problems and I also admire how it all works.',
+//        'I like complex interactive web services, creating beautiful interfaces for user needs, and how it all works, helping to solve customer problems.',
         /*'I like complex interactive web services, creating the beautiful interface for users\' needs and make things working',*/
-        'In personal projects, I am interested in the transport theme and the automation of dispatchers\' work. Also I have several published articles on this topic.'
+        'I am interested in the transport sphere and the automating of dispatchers\' work in personal projects. Moreover I have got several published articles on this topic.'
     ]
 
 ];

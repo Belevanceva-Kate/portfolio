@@ -23,9 +23,9 @@ return [
 
         'mrpl_it_conf_2019' => [
             'title' => 'MRPL IT Conf 2019',
-            'role'  => 'participant',
+            'role'  => 'speaker',
             'info'  => [
-                'Held a workshop «CSS-animations»'
+                'I held a workshop «CSS-animations»'
             ]
         ],
 
@@ -33,7 +33,7 @@ return [
             'title' => 'MRPL IT Conf 2018',
             'role'  => 'participant',
             'info'  => [
-                'Developed the conference website'
+                'I was a developer of the conference website'
             ]
         ],
 

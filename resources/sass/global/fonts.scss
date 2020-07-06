@@ -5,6 +5,7 @@
         url('/fonts/Lato/latolight.woff') format('woff'),
         url('/fonts/Lato/latolight.ttf') format('truetype');
     font-weight: 300;
+    font-display: swap;
     font-style: normal;
 }
 @font-face {
@@ -13,6 +14,7 @@
         url('/fonts/Lato/latoregular.woff') format('woff'),
         url('/fonts/Lato/latoregular.ttf') format('truetype');
     font-weight: 400;
+    font-display: swap;
     font-style: normal;
 }
 @font-face {
@@ -21,5 +23,6 @@
         url('/fonts/Lato/latobold.woff') format('woff'),
         url('/fonts/Lato/latobold.ttf') format('truetype');
     font-weight: 700;
+    font-display: swap;
     font-style: normal;
 }

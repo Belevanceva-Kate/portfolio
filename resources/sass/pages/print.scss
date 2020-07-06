@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after,
+*:first-letter,
+p:first-line,
+div:first-line,
+blockquote:first-line,
+li:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+//a[href]:after {
+//    content: " (" attr(href) ")";
+//}
+
+.settings {
+    display: none;
+}
+
+// HEADER -------------------------------------------
+
+.header {
+    .contacts {
+        &__item {
+            &:not(:last-of-type) {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .qrcode {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        svg {
+            transform: scale(0.7);
+        }
+    }
+}
+
+// SOCIALS -------------------------------------------
+
+.socials {
+    &__item {
+
+    }
+    &__link {
+        border: none;
+        &[href]:after {
+            content: " (" attr(href) ")";
+        }
+
+        svg {
+            margin: 0 auto 10px;
+        }
+    }
+}
+
+// CONTACTS -------------------------------------------
+
+.contacts {
+    &__list {
+        display: block;
+        font-size: 0;
+    }
+    &__item {
+        font-size: 1rem;
+        display: inline-block;
+        width: 30%;
+        &:nth-of-type(2) {
+            margin: 0 5%;
+        }
+    }
+}
+
+// EXPERIENCE -------------------------------------------
+
+.experience,
+.education {
+    &__item {
+        &:before {
+            background-color: #ececec !important;
+        }
+    }
+}
+
+// EXPERTISE -------------------------------------------
+
+.expertise {
+    //&__list {
+    //    display: block;
+    //    font-size: 0;
+    //}
+    //&__item {
+    //    display: inline-block;
+    //    width: 47%;
+    //    &:nth-of-type(2n) {
+    //        margin-left: 6%;
+    //    }
+    //}
+    //.skills {
+    //    font-size: 1rem;
+    //}
+    //.counter {
+    //    &__item{
+    //        vertical-align: top;
+    //    }
+    //    &__digits,
+    //    &__content {
+    //        display: inline-block;
+    //        vertical-align: top;
+    //    }
+    //}
+}
+
+// EDUCATION -------------------------------------------
+
+// FOOTER -------------------------------------------
+
+.footer {
+    display: none;
+}
