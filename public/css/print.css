@@ -12,12 +12,32 @@ li:first-line {
   text-shadow: none !important;
 }
 
+p {
+  page-break-inside: avoid;
+}
+
 .settings {
   display: none;
 }
 
+.header__image {
+  display: none;
+}
+
+.header .section__content {
+  padding-top: 0;
+}
+
+.header .contacts {
+  border-top: 1px solid #ececec;
+}
+
 .header .contacts__item:not(:last-of-type) {
   margin-bottom: 0;
+}
+
+.header .socials {
+  margin-top: 35px;
 }
 
 .header .qrcode {
@@ -28,7 +48,7 @@ li:first-line {
 }
 
 .header .qrcode svg {
-  transform: scale(0.7);
+  transform: scale(0.6) translate(0, -30px);
 }
 
 .socials__link {
@@ -61,6 +81,72 @@ li:first-line {
 .experience__item:before,
 .education__item:before {
   background-color: #ececec !important;
+}
+
+.expertise .skills__item:before {
+  display: none;
+}
+
+.portfolio__list {
+  display: block;
+}
+
+.portfolio__item {
+  position: relative;
+  display: inline-table;
+  vertical-align: top;
+  width: 45%;
+}
+
+.portfolio__item:nth-of-type(even) {
+  margin-left: 5%;
+}
+
+.portfolio__icon,
+.portfolio__content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.portfolio__icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.portfolio__content {
+  margin-left: 40px;
+}
+
+.counter {
+  display: block;
+}
+
+.counter__item {
+  position: relative;
+  display: inline-table;
+  vertical-align: top;
+  width: 45%;
+}
+
+.counter__item:nth-of-type(even) {
+  margin-left: 5%;
+}
+
+.counter__digits,
+.counter__content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.counter__digits {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.counter__content {
+  margin-left: 40px;
 }
 
 .footer {

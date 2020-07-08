@@ -39,7 +39,7 @@ return [
         [
             'heading'   => 'International scientific and technical conference "University Science – 2019", SHEI "PSTU", Mariupol, May 16-17, 2019',
 //            'heading'   => 'Міжнародна науково-технічна конференція «Університетська наука – 2019», ДВНЗ «ПДТУ», м. Маріуполь, 16-17 травня 2019',
-            'title'     => '«Analysis methods of forming municipal bus schedule»',
+            'title'     => '«Analysis of methods of forming municipal bus schedule»',
 //            'title'     => '«Analysis of methods of formation of the schedule of city route transport»',
 //            'title'     => '«Аналіз методів формування розкладу міського маршрутного транспорту»',
             'link'      => 'http://eir.pstu.edu/bitstream/handle/123456789/23120/%d0%a3_%d0%ba%d0%b0%d1%8f%20%d0%bd%d0%b0%d1%83%d0%ba%d0%b0_2019_%d0%a2_2_p002-310_p215-216.pdf?sequence=1',
@@ -68,7 +68,7 @@ return [
 //            'title'     => '«Semantic Analyzer course of solving geometry problems»',
 //            'title'     => '«Семантичний аналізатор ходу рішення геометричних задач»',
             'link'      => 'http://eir.pstu.edu/bitstream/handle/123456789/19093/%d0%9d%d0%b0%d1%83%d0%ba%d0%b0_%d0%bf%d0%b5%d1%80%d1%88%d1%96%20%d0%ba%d1%80%d0%be%d0%ba%d0%b8%202017%20%d1%82%d0%be%d0%bc%204_p12-13%20%28%d1%81.%2011-12%29.pdf?sequence=1',
-            'info'      => 'take the 2nd place',
+            'info'      => 'took the 2nd place',
             'language'  => [
                 'code'  => 'ru',
                 'text'  => 'rus.'

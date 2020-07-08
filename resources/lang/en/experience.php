@@ -23,7 +23,6 @@ return [
 //                'I have worked ... I have '
                 'I have been working on internal projects of the company, outsourced projects, and I have been an outstaff employee.',
                 'Mostly I have worked out apps for Shopify platform in PHP. I prefer Laravel as a framework for creating plugins. Besides I have created Shopify themes.',
-//                'Mostly developed in PHP and interacted with Shopify when creating applications for this platform. As a framework for creating plugins, I prefer Laravel. Also I created Shopify themes.',
             ]
         ],
 

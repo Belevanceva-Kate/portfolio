@@ -12,9 +12,9 @@ li:first-line {
     text-shadow: none !important;
 }
 
-//a[href]:after {
-//    content: " (" attr(href) ")";
-//}
+p {
+    page-break-inside: avoid;
+}
 
 .settings {
     display: none;
@@ -23,12 +23,27 @@ li:first-line {
 // HEADER -------------------------------------------
 
 .header {
+    &__image {
+        display: none;
+    }
+
+    .section {
+        &__content {
+            padding-top: 0;
+        }
+    }
+
     .contacts {
+        border-top: 1px solid #ececec;
         &__item {
             &:not(:last-of-type) {
                 margin-bottom: 0;
             }
         }
+    }
+
+    .socials {
+        margin-top: 35px;
     }
 
     .qrcode {
@@ -38,7 +53,8 @@ li:first-line {
         top: 0;
 
         svg {
-            transform: scale(0.7);
+            //transform: scale(0.6);
+            transform: scale(0.6) translate(0, -30px);
         }
     }
 }
@@ -92,33 +108,74 @@ li:first-line {
 // EXPERTISE -------------------------------------------
 
 .expertise {
-    //&__list {
-    //    display: block;
-    //    font-size: 0;
-    //}
-    //&__item {
-    //    display: inline-block;
-    //    width: 47%;
-    //    &:nth-of-type(2n) {
-    //        margin-left: 6%;
-    //    }
-    //}
-    //.skills {
-    //    font-size: 1rem;
-    //}
-    //.counter {
-    //    &__item{
-    //        vertical-align: top;
-    //    }
-    //    &__digits,
-    //    &__content {
-    //        display: inline-block;
-    //        vertical-align: top;
-    //    }
-    //}
+    .skills {
+        &__item {
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+// PORTFOLIO -------------------------------------------
+
+.portfolio {
+    &__list {
+        display: block;
+    }
+    &__item {
+        position: relative;
+        display: inline-table;
+        vertical-align: top;
+        width: 45%;
+        &:nth-of-type(even) {
+            margin-left: 5%;
+        }
+    }
+    &__icon,
+    &__content {
+        display: inline-block;
+        vertical-align: top;
+    }
+    &__icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__content {
+        margin-left: 40px;
+    }
 }
 
 // EDUCATION -------------------------------------------
+
+// COUNTER -------------------------------------------
+
+.counter {
+    display: block;
+    &__item {
+        position: relative;
+        display: inline-table;
+        vertical-align: top;
+        width: 45%;
+        &:nth-of-type(even) {
+            margin-left: 5%;
+        }
+    }
+    &__digits,
+    &__content {
+        display: inline-block;
+        vertical-align: top;
+    }
+    &__digits {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__content {
+        margin-left: 40px;
+    }
+}
 
 // FOOTER -------------------------------------------
 

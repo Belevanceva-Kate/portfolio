@@ -57,16 +57,11 @@ return [
                 ]
             ],
             'handle'        => 'blendtopia',
-//            'banner'        => '/img/projects/blendtopia.png',
             'description'   => [
                 'This is superfood business.',
                 'The goal of the project was to realize product boxes assembly to give the customer a chance either to \'subscribe\' a constant supply or to make a one-time purchase. The client could edit the subscription.',
                 'There are several types of boxes: predefined and custom. The first one has a ready-made set of products by flavours and quantity. The second allows the user to choose how much and what flavours he/she wants to buy.',
                 'A unique design and box builder was created for this project. Custom layout was developed implementing the Back-End part which helped the subscription plugin interpret the boxes correctly.'
-//                'This is a smoothie business. They are portioned.',
-//                'The order can be carried out in boxes with sizes of 8, 12, 16 and 24 smoothies. Each box can simply be bought, or "subscribe" to it. That is, you can receive them every 1, 2, 4 or 6 weeks.',
-//                'There are several types of boxes: predefined and custom. The first one has a ready-made set of smoothies by taste and quantity. The second - allows the user to choose how much and what tastes he/she wants to buy.',
-//                'A unique design and box builder has been created for this project. The Front-End part was developed, as well as the Back-End, which helped the subscription plugin interpret the boxes correctly.'
             ],
             'images'        => [
                 [
@@ -213,7 +208,6 @@ return [
             'tools'         => [
                 'Shopify'
             ],
-//            'icon'          => 'icons.projects.smoothie'
         ],
 
         'marketplace-genie' => [
