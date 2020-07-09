@@ -18,6 +18,25 @@
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
         <link href="@if(isset($page)) {{ asset('css/' . $page . '.css') }} @else {{ asset('css/index.css') }} @endif" rel="stylesheet">
         <link rel="stylesheet" media="print" href="{{ asset('css/print.css') }}" />
+
+        <!-- Primary Meta Tags -->
+{{--        <title>Portfolio. Kateryna Bielievantseva</title>--}}
+        <meta name="title" content="Portfolio. Kateryna Bielievantseva">
+{{--        <meta name="description" content="">--}}
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://belekate.tk/">
+        <meta property="og:title" content="Portfolio. Kateryna Bielievantseva">
+{{--        <meta property="og:description" content="">--}}
+        <meta property="og:image" content="https://belekate.tk/img/photo.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://belekate.tk/">
+        <meta property="twitter:title" content="Portfolio. Kateryna Bielievantseva">
+{{--        <meta property="twitter:description" content="">--}}
+        <meta property="twitter:image" content="https://belekate.tk/img/photo.png">
     </head>
 
     <body class="{{ $theme . '-theme' }}">
