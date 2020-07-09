@@ -8,6 +8,7 @@
                         class="socials__link"
                         target="_blank"
                         title="{{ config('contacts.socials.' . $item . '.title') }}"
+                        onclick="ga('send', 'event', 'button', 'click', 'contacts');"
                     >
                         @include(config('contacts.socials.' . $item . '.image'))
                     </a>
