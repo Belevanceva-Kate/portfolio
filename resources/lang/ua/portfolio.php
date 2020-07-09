@@ -39,7 +39,8 @@ return [
             ],
             'tools'         => [
                 'Laravel',
-                'jQuery'
+                'jQuery',
+                'SCSS'
             ],
             'icon'          => 'icons.projects.person'
         ],
@@ -102,6 +103,9 @@ return [
             ],
             'tools'         => [
                 'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'Gulp',
                 'Laravel',
                 'Subscriptions by ReCharge App'
             ],
@@ -195,7 +199,10 @@ return [
                 ]
             ],
             'tools'         => [
-                'Shopify'
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'Gulp'
             ],
             'icon'          => 'icons.projects.cannabis'
         ],

@@ -20,7 +20,6 @@
         <link rel="stylesheet" media="print" href="{{ asset('css/print.css') }}" />
 
         <!-- Primary Meta Tags -->
-{{--        <title>Portfolio. Kateryna Bielievantseva</title>--}}
         <meta name="title" content="Portfolio. Kateryna Bielievantseva">
 {{--        <meta name="description" content="">--}}
 
