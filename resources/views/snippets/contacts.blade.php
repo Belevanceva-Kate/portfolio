@@ -8,7 +8,7 @@
                         <a
                             href="{{ config('contacts.' . $item . '.link') }}"
                             class="contacts__link"
-                            onСlick="ga('send', 'event', 'button', 'click', 'contacts');"
+                            onclick="ga('send', 'event', 'button', 'click', 'contacts');"
                             @if($item == 'location')
                                 target="_blank"
                             @endif
