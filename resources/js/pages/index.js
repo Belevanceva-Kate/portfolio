@@ -1,5 +1,7 @@
 window.$ = window.jQuery = require('jquery');
 
+import 'lazysizes';
+
 import Base from '../Base.js';
 
 import Settings from '../components/Settings';

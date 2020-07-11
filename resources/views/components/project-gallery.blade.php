@@ -21,7 +21,9 @@
                                     data-caption="@if (!empty($image['title'])) {{ $image['title'] }} @endif"
                                 >
                                     <img
-                                        src="{{ $image['src_compressed'] }}"
+                                        data-src="{{ $image['src_compressed'] }}"
+                                        class="lazyload"
+                                        data-sizes="auto"
                                         alt="@if (!empty($image['title'])) {{ $image['title'] }} @endif"
                                     >
                                 </a>

@@ -1,5 +1,6 @@
 window.$ = window.jQuery = require('jquery');
-// import $ from 'jquery'; window.jQuery = $; window.$ = $;
+
+import 'lazysizes';
 
 import Base from '../Base.js';
 

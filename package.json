@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "@fancyapps/fancybox": "^3.5.7",
-        "jquery": "^3.5.1"
+        "jquery": "^3.5.1",
+        "lazysizes": "^5.2.2"
     }
 }

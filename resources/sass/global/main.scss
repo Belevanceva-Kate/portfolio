@@ -119,6 +119,17 @@ a {
     }
 }
 
+.lazyload {
+    opacity: 0;
+}
+
+.lazyloading {
+    opacity: 1;
+    background: url('/img/ajax_loader.gif') no-repeat center;
+    background-size: 50px;
+    @include transition(opacity);
+}
+
 
 
 // THEME DARK

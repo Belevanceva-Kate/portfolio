@@ -4,7 +4,8 @@
         <div class="section__left">
             <div class="section__content">
                 <div class="header__image">
-                    <img src="/img/photo.png" alt="photo">
+                    <img data-src="/img/photo.png" class="lazyload" alt="photo" data-sizes="auto">
+{{--                    <img src="/img/photo.png" alt="photo">--}}
                 </div>
                 <div class="qrcode">
                     @include('icons.contacts.qrcode')
