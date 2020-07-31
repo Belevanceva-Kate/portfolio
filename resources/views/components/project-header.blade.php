@@ -1,4 +1,4 @@
-<section class="section project-header">
+<header class="section project-header">
     @include('snippets.background')
     <div class="container section__container">
         <div class="section__left">
@@ -16,4 +16,4 @@
             </div>
         </div>
     </div>
-</section>
+</header>
