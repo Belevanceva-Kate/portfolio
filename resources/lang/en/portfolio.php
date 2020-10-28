@@ -15,6 +15,71 @@ return [
 
     'list'  => [
 
+        'fire-pro' => [
+            'title'         => 'Fire Pro — TSC-engineering',
+            'excerpt'       => [
+                'Fire-fighting equipment'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Website',
+                    'title'     => 'CannaGo',
+                    'link'      => 'https://fire-pro.com.ua'
+                ]
+            ],
+            'handle'        => 'fire-pro',
+            'description'   => [
+                'This company is engaged in the production, sale and service of fire-fighting equipment. Products are supplied both for factories, offices, and for home.',
+                'The developed online store is multilingual. It has Russian and Ukrainian versions.',
+                'A filtering functionality was work out for the collection page, which is grouped by type (diameter, weight, etc.).
+Goods variations on the product page are shown to the customer as rectangles. Such products cannot be put into the cart without choosing an option.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/fire-pro/full/home-promotional.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/home-promotional-min.png',
+                    'title' => 'Home. Promotional Section'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/home-shop.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/home-shop-min.png',
+                    'title' => 'Home. Shop Section'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/collection.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/collection-min.png',
+                    'title' => 'Collection'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/collection-products.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/collection-products-min.png',
+                    'title' => 'Collection Products'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/product-variants.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/product-variants-min.png',
+                    'title' => 'Product With Variants'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/cart-ajax.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/cart-ajax-min.png',
+                    'title' => 'Cart AJAX'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/cart.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/cart-min.png',
+                    'title' => 'Cart'
+                ],
+            ],
+            'tools'         => [
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'Gulp'
+            ],
+            'icon'          => 'icons.projects.fire'
+        ],
+
         'portfolio' => [
             'title'         => 'Portfolio',
             'excerpt'       => [

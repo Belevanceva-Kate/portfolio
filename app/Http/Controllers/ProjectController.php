@@ -14,7 +14,7 @@ class ProjectController extends Controller
 
         $page       = 'project';
         $project    = __('portfolio.list.' . $name);
-        $portfolio  = ['portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $portfolio  = ['fire-pro', 'portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
         $contacts   = ['phone', 'email', 'location'];
         $socials    = ['linkedin', 'telegram'];
 
