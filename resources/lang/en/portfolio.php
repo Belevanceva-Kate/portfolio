@@ -15,6 +15,110 @@ return [
 
     'list'  => [
 
+        'shiokfarm' => [
+            'title'         => 'ShiokFarm',
+            'excerpt'       => [
+                'Organic products'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Website',
+                    'title'     => 'ShiokFarm',
+                    'link'      => 'https://www.shiokfarm.com'
+                ]
+            ],
+            'handle'        => 'shiokfarm',
+            'description'   => [
+                'This company is engaged in the production, distribution and maintenance of fire-fighting equipment. Products are supplied both for factories, offices, and for home.',
+                'The developed online store is multilingual. It has Russian and Ukrainian versions.',
+                'A filtering functionality has been created for the collection page, which is grouped by type (diameter, weight, etc.). Goods variations on the product page are shown to the customer as rectangles. Such products cannot be put into the cart without choosing an option.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/home.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/collection.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/collection-min.png',
+                    'title' => 'Collection'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/product.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart-ajax.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-ajax-min.png',
+                    'title' => 'Cart AJAX'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-min.png',
+                    'title' => 'Cart'
+                ],
+            ],
+            'tools'         => [
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'JS',
+                'Gulp'
+            ],
+            'icon'          => 'icons.projects.organic'
+        ],
+
+        'muzaara-bing' => [
+            'title'         => 'Muzaara Bing Shopping Feed',
+            'excerpt'       => [
+                'Shopify public app for sync products to Microsoft Merchant Center'
+            ],
+            'links'         => [
+                /*[
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Muzaara Bing Shopping Feed',
+                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                ]*/
+            ],
+            'handle'        => 'muzaara-bing',
+            'description'   => [
+                'Application helps shop owners to sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
+                'For example, a customer wants to buy a serial key for a game. After paying the order, a letter will be sent to the client\'s email containing the product, the serial key and the link to activate it. He/she can also view this information in the personal account.',
+                'Application was developed for the Shopify platform.',
+//                'Currently being reviewed.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-account.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-account-min.png',
+                    'title' => 'Setup Account'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-store.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-store-min.png',
+                    'title' => 'Setup Store'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-min.png',
+                    'title' => 'Products'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products-category.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-category-min.png',
+                    'title' => 'Add category to products'
+                ]
+            ],
+            'tools'         => [
+                'Shopify',
+                'PHP',
+                'Laravel'
+            ],
+            'icon'          => 'icons.projects.bing'
+        ],
+
         'fire-pro' => [
             'title'         => 'Fire Pro — TSC-engineering',
             'excerpt'       => [
@@ -23,16 +127,15 @@ return [
             'links'         => [
                 [
                     'resource'  => 'Website',
-                    'title'     => 'CannaGo',
+                    'title'     => 'Fire Pro',
                     'link'      => 'https://fire-pro.com.ua'
                 ]
             ],
             'handle'        => 'fire-pro',
             'description'   => [
-                'This company is engaged in the production, sale and service of fire-fighting equipment. Products are supplied both for factories, offices, and for home.',
+                'This company is engaged in the production, distribution and maintenance of fire-fighting equipment. Products are supplied both for factories, offices, and for home.',
                 'The developed online store is multilingual. It has Russian and Ukrainian versions.',
-                'A filtering functionality was work out for the collection page, which is grouped by type (diameter, weight, etc.).
-Goods variations on the product page are shown to the customer as rectangles. Such products cannot be put into the cart without choosing an option.'
+                'A filtering functionality has been created for the collection page, which is grouped by type (diameter, weight, etc.). Goods variations on the product page are shown to the customer as rectangles. Such products cannot be put into the cart without choosing an option.'
             ],
             'images'        => [
                 [
@@ -75,6 +178,7 @@ Goods variations on the product page are shown to the customer as rectangles. Su
                 'Shopify',
                 'Theme Kit',
                 'SCSS',
+                'JS',
                 'Gulp'
             ],
             'icon'          => 'icons.projects.fire'
@@ -103,6 +207,7 @@ Goods variations on the product page are shown to the customer as rectangles. Su
                 'The user can switch dark or light mode, as well as choose languages in the settings.'
             ],
             'tools'         => [
+                'PHP',
                 'Laravel',
                 'jQuery',
                 'SCSS'
@@ -171,6 +276,7 @@ Goods variations on the product page are shown to the customer as rectangles. Su
                 'Theme Kit',
                 'SCSS',
                 'Gulp',
+                'PHP',
                 'Laravel',
                 'Subscriptions by ReCharge App'
             ],
@@ -215,6 +321,7 @@ Goods variations on the product page are shown to the customer as rectangles. Su
             ],
             'tools'         => [
                 'Shopify',
+                'PHP',
                 'Laravel'
             ],
             'icon'          => 'icons.projects.key'
@@ -267,12 +374,13 @@ Goods variations on the product page are shown to the customer as rectangles. Su
                 'Shopify',
                 'Theme Kit',
                 'SCSS',
+                'JS',
                 'Gulp'
             ],
             'icon'          => 'icons.projects.cannabis'
         ],
 
-        'world-bloggers-awards' => [
+       /* 'world-bloggers-awards' => [
             'title'         => 'WBA',
             'description'   => [
                 ''
@@ -280,7 +388,7 @@ Goods variations on the product page are shown to the customer as rectangles. Su
             'tools'         => [
                 'Shopify'
             ],
-        ],
+        ],*/
 
         'marketplace-genie' => [
             'title'         => 'Marketplace Genie',
@@ -293,7 +401,9 @@ Goods variations on the product page are shown to the customer as rectangles. Su
             ],
             'tools'         => [
                 'Shopify',
-                'PHP'
+                'PHP',
+                'CSS',
+                'JS'
             ],
             'icon'          => 'icons.projects.sync'
         ]

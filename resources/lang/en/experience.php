@@ -15,6 +15,15 @@ return [
 
     'list'  => [
 
+        'makebecool' => [
+            'position'      => 'Back-End Developer',
+            'company'       => 'MakeBeCool',
+            'date'          => '07.2020 – 01.2021',
+            'description'   => [
+                'Shopify apps and themes development.',
+            ]
+        ],
+
         'foridev' => [
             'position'      => 'Back-End Developer',
             'company'       => 'Foridev',

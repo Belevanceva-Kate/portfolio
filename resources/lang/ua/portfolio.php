@@ -15,6 +15,71 @@ return [
 
     'list'  => [
 
+        'fire-pro' => [
+            'title'         => 'Fire Pro — TSC-engineering',
+            'excerpt'       => [
+                'Протипожежне обладнання'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Сайт',
+                    'title'     => 'Fire Pro',
+                    'link'      => 'https://fire-pro.com.ua'
+                ]
+            ],
+            'handle'        => 'fire-pro',
+            'description'   => [
+                'Дане підприємство займається виробництвом, продажем і обслуговуванням протипожежного обладнання. Продукція поставляється як для виробництв, офісів, так і для дому. ',
+                'Розроблений інтернет-магазин є багатомовним. У ньому є російська та українська версії.',
+                'Для сторінки колекції був розроблений функціонал фільтрації, який групується за типами (діаметри, вага і т.д.). Варіації товару на сторінці продукту показуються клієнту у вигляді чотирикутників. Такі продукти не можна покласти в кошик, без вибору варіанту.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/fire-pro/full/home-promotional.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/home-promotional-min.png',
+                    'title' => 'Home. Promotional Section'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/home-shop.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/home-shop-min.png',
+                    'title' => 'Home. Shop Section'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/collection.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/collection-min.png',
+                    'title' => 'Collection'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/collection-products.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/collection-products-min.png',
+                    'title' => 'Collection Products'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/product-variants.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/product-variants-min.png',
+                    'title' => 'Product With Variants'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/cart-ajax.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/cart-ajax-min.png',
+                    'title' => 'Cart AJAX'
+                ],
+                [
+                    'src_full' => '/img/projects/fire-pro/full/cart.png',
+                    'src_compressed' => '/img/projects/fire-pro/compressed/cart-min.png',
+                    'title' => 'Cart'
+                ],
+            ],
+            'tools'         => [
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'JS',
+                'Gulp'
+            ],
+            'icon'          => 'icons.projects.fire'
+        ],
+
         'portfolio' => [
             'title'         => 'Portfolio',
             'excerpt'       => [
@@ -38,6 +103,7 @@ return [
                 'Є можливість в налаштуваннях змінити кольорову схему на темну або світлу, а також переключити мови.'
             ],
             'tools'         => [
+                'PHP',
                 'Laravel',
                 'jQuery',
                 'SCSS'
@@ -106,6 +172,7 @@ return [
                 'Theme Kit',
                 'SCSS',
                 'Gulp',
+                'PHP',
                 'Laravel',
                 'Subscriptions by ReCharge App'
             ],
@@ -150,6 +217,7 @@ return [
             ],
             'tools'         => [
                 'Shopify',
+                'PHP',
                 'Laravel'
             ],
             'icon'          => 'icons.projects.key'
@@ -202,12 +270,13 @@ return [
                 'Shopify',
                 'Theme Kit',
                 'SCSS',
+                'JS',
                 'Gulp'
             ],
             'icon'          => 'icons.projects.cannabis'
         ],
 
-        'world-bloggers-awards' => [
+        /*'world-bloggers-awards' => [
             'title'         => 'WBA',
             'description'   => [
                 ''
@@ -215,7 +284,7 @@ return [
             'tools'         => [
                 'Shopify'
             ],
-        ],
+        ],*/
 
         'marketplace-genie' => [
             'title'         => 'Marketplace Genie',
@@ -228,7 +297,9 @@ return [
             ],
             'tools'         => [
                 'Shopify',
-                'PHP'
+                'PHP',
+                'CSS',
+                'JS'
             ],
             'icon'          => 'icons.projects.sync'
         ]

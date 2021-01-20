@@ -19,10 +19,10 @@ class IndexController extends Controller
         $page           = 'index';
         $contacts       = ['phone', 'email', 'location'];
         $socials        = ['linkedin', 'telegram'];
-        $experience     = ['foridev', 'ohmycode'];
+        $experience     = ['makebecool', 'foridev', 'ohmycode'];
         $education      = ['master', 'bachelor', 'school'];
         $expertise      = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages'];
-        $portfolio      = ['fire-pro', 'portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
+        $portfolio      = ['shiokfarm', 'muzaara-bing', 'fire-pro', 'portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
         $conferences    = ['lviv_it_arena_2019', 'mrpl_it_conf_2019', 'mrpl_it_conf_2018', 'kharkiv_css_3'];
 
         $this->assign('page', $page);
