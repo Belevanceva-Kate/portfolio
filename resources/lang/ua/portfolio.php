@@ -15,6 +15,108 @@ return [
 
     'list'  => [
 
+        'shiokfarm' => [
+            'title'         => 'ShiokFarm',
+            'excerpt'       => [
+                'Екологічно чиста продукція'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Сайт',
+                    'title'     => 'ShiokFarm',
+                    'link'      => 'https://www.shiokfarm.com'
+                ]
+            ],
+            'handle'        => 'shiokfarm',
+            'description'   => [
+                'Це магазин, який продає екологічно чисті овочі, фрукти, вино та інші продукти в Сінгапурі.',
+                'Клієнту необхідно було застосувати специфічні вимоги до доставки замовлень та її розрахунку, зробити кастомізовані рекомендації для кожного товару, додати функціонал подарункових карт. Також необхідно було надати можливість при оформленні замовлення прив`язати його до підписки друга або до своєї, вже існуючої.',
+                'Процес розробки вівся на тестовому магазині, щоб ніяк не зачепити ні сам сайт, ні існуючі на ньому підписки. Після того, як були виконані всі завдання, ми зробили повний трансфер сайту на "живий" магазин. Також ми зв`язалися з командою технічної підтримки додатку підписок і надали їм файл для оновлення всіх старих продуктів на нові.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/home.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/collection.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/collection-min.png',
+                    'title' => 'Collection'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/product.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart-ajax.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-ajax-min.png',
+                    'title' => 'Cart AJAX'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-min.png',
+                    'title' => 'Cart'
+                ],
+            ],
+            'tools'         => [
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'JS',
+                'Gulp'
+            ],
+            'icon'          => 'icons.projects.organic'
+        ],
+
+        'muzaara-bing' => [
+            'title'         => 'Muzaara Bing Shopping Feed',
+            'excerpt'       => [
+                'Публічний Shopify додаток для синхронізації продуктів з Microsoft Merchant Center'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Muzaara Bing Shopping Feed',
+                    'link'      => 'https://apps.shopify.com/microsoft-bing-shopping-feed'
+                ]
+            ],
+            'handle'        => 'muzaara-bing',
+            'description'   => [
+                'Метою цього проекту була синхронізація продуктів з магазину Shopify до Microsoft Merchant Center для подальшого просування у вигляді рекламних банерів в пошуковій системі Bing.',
+                'Для цього необхідно було дослідити документацію Bing Ads API, налаштувати додаток в Microsoft Azure, написати функціонал аутентифікації в Microsoft прямо з додатку Shopify і розробити автоматичну синхронізацію продуктів з Microsoft Merchant Center.',
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-account.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-account-min.png',
+                    'title' => 'Setup Account'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-store.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-store-min.png',
+                    'title' => 'Setup Store'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-min.png',
+                    'title' => 'Products'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products-category.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-category-min.png',
+                    'title' => 'Add category to products'
+                ]
+            ],
+            'tools'         => [
+                'Shopify',
+                'PHP',
+                'Laravel'
+            ],
+            'icon'          => 'icons.projects.bing'
+        ],
+
         'fire-pro' => [
             'title'         => 'Fire Pro — TSC-engineering',
             'excerpt'       => [
@@ -188,7 +290,8 @@ return [
                 [
                     'resource'  => 'Shopify App Store',
                     'title'     => 'Foridev - Selling Codes app',
-                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                    'link'      => 'https://apps.shopify.com/foridev-selling-codes-app'
+//                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
                 ]
             ],
             'handle'        => 'codes',

@@ -15,6 +15,108 @@ return [
 
     'list'  => [
 
+        'shiokfarm' => [
+            'title'         => 'ShiokFarm',
+            'excerpt'       => [
+                'Экологически чистая продукция'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Сайт',
+                    'title'     => 'ShiokFarm',
+                    'link'      => 'https://www.shiokfarm.com'
+                ]
+            ],
+            'handle'        => 'shiokfarm',
+            'description'   => [
+                'Это магазин, который продает экологически чистые овощи, фрукты, вино и другие продукты в Сингапуре.',
+                'Клиенту необходимо было применить специфические требования к доставке заказов и ее расчету, сделать кастомизируемые рекомендации для каждого товара, добавить функционал подарочных карт. Также необходимо было предоставить возможность при оформлении заказа привязать его к подписке друга или к своей, уже существующей.',
+                'Процесс разработки велся на тестовом магазине, чтобы никак не затронуть ни сам сайт, ни существующие на нем подписки. После того, как мы выполнили все задачи, мы сделали полный трансфер сайта на "живой" магазин. Также мы связались с командой технической поддержки приложения подписок и предоставили им файл для обновления всех старых продуктов на новые.'
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/home.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/home-min.png',
+                    'title' => 'Home'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/collection.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/collection-min.png',
+                    'title' => 'Collection'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/product.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/product-min.png',
+                    'title' => 'Product'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart-ajax.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-ajax-min.png',
+                    'title' => 'Cart AJAX'
+                ],
+                [
+                    'src_full' => '/img/projects/shiokfarm/full/cart.png',
+                    'src_compressed' => '/img/projects/shiokfarm/compressed/cart-min.png',
+                    'title' => 'Cart'
+                ],
+            ],
+            'tools'         => [
+                'Shopify',
+                'Theme Kit',
+                'SCSS',
+                'JS',
+                'Gulp'
+            ],
+            'icon'          => 'icons.projects.organic'
+        ],
+
+        'muzaara-bing' => [
+            'title'         => 'Muzaara Bing Shopping Feed',
+            'excerpt'       => [
+                'Публичное Shopify приложение для синхронизации продуктов с Microsoft Merchant Center'
+            ],
+            'links'         => [
+                [
+                    'resource'  => 'Shopify App Store',
+                    'title'     => 'Muzaara Bing Shopping Feed',
+                    'link'      => 'https://apps.shopify.com/microsoft-bing-shopping-feed'
+                ]
+            ],
+            'handle'        => 'muzaara-bing',
+            'description'   => [
+                'Целью этого проекта была синхронизация продуктов из магазина Shopify с Microsoft Merchant Center для дальнейшего продвижения в виде рекламных баннеров в поисковой системе Bing.',
+                'Для этого необходимо было изучить документацию Bing Ads API, настроить приложение в Microsoft Azure, написать функционал аутентификации в Microsoft прямо из приложения Shopify и разработать автоматическую синхронизацию продуктов с Microsoft Merchant Center.',
+            ],
+            'images'        => [
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-account.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-account-min.png',
+                    'title' => 'Setup Account'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/setup-store.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/setup-store-min.png',
+                    'title' => 'Setup Store'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-min.png',
+                    'title' => 'Products'
+                ],
+                [
+                    'src_full' => '/img/projects/muzaara-bing/full/products-category.png',
+                    'src_compressed' => '/img/projects/muzaara-bing/compressed/products-category-min.png',
+                    'title' => 'Add category to products'
+                ]
+            ],
+            'tools'         => [
+                'Shopify',
+                'PHP',
+                'Laravel'
+            ],
+            'icon'          => 'icons.projects.bing'
+        ],
+
         'fire-pro' => [
             'title'         => 'Fire Pro — TSC-engineering',
             'excerpt'       => [
@@ -188,7 +290,8 @@ return [
                 [
                     'resource'  => 'Shopify App Store',
                     'title'     => 'Foridev - Selling Codes app',
-                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                    'link'      => 'https://apps.shopify.com/foridev-selling-codes-app'
+//                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
                 ]
             ],
             'handle'        => 'codes',
@@ -196,7 +299,6 @@ return [
                 'Приложение помогает сторхолдерам реализовывать серийные ключи. С помощью приложения они могут закреплять их за каким-то продуктом, а также хранить мультиязычные ссылки для их активации.',
                 'Например, клиент хочет купить серийный ключ для игры. После произведения оплаты ему на почту приходит письмо, в котором указывается продукт, серийный ключ к нему и ссылка на активацию. Также он может просмотреть эту информацию в своем личном аккаунте.',
                 'Приложение, разработанное под платформу Shopify.',
-//                'На данный момент проходит ревью.'
             ],
             'images'        => [
                 [

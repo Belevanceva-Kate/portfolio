@@ -29,9 +29,9 @@ return [
             ],
             'handle'        => 'shiokfarm',
             'description'   => [
-                'This company is engaged in the production, distribution and maintenance of fire-fighting equipment. Products are supplied both for factories, offices, and for home.',
-                'The developed online store is multilingual. It has Russian and Ukrainian versions.',
-                'A filtering functionality has been created for the collection page, which is grouped by type (diameter, weight, etc.). Goods variations on the product page are shown to the customer as rectangles. Such products cannot be put into the cart without choosing an option.'
+                'This is a shop that sells organic vegetables, fruits, wine and other products in Singapore.',
+                'The client needed to apply certain requirements for order deliveries, to made customizable recommendations for each product, to implement gift cards functionality. It was also necessary to provide an opportunity, when placing an order, to attach it to a friend`s subscription, or to your own, which already exist.',
+                'The development process was conducted on a test store in order not to affect the site itself, as well as existing subscriptions. After we completed all tasks, we made a full site transfer to live store. Also we contacted the subscription app support team and provided them with a file to update all old products to new ones.'
             ],
             'images'        => [
                 [
@@ -76,18 +76,16 @@ return [
                 'Shopify public app for sync products to Microsoft Merchant Center'
             ],
             'links'         => [
-                /*[
+                [
                     'resource'  => 'Shopify App Store',
                     'title'     => 'Muzaara Bing Shopping Feed',
-                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
-                ]*/
+                    'link'      => 'https://apps.shopify.com/microsoft-bing-shopping-feed'
+                ]
             ],
             'handle'        => 'muzaara-bing',
             'description'   => [
-                'Application helps shop owners to sell serial keys. With the help of the app, they can pin the keys to a certain product and add multilingual links to activate them.',
-                'For example, a customer wants to buy a serial key for a game. After paying the order, a letter will be sent to the client\'s email containing the product, the serial key and the link to activate it. He/she can also view this information in the personal account.',
-                'Application was developed for the Shopify platform.',
-//                'Currently being reviewed.'
+                'The purpose of this project was to synchronize products from the Shopify store to the Microsoft Merchant Center for further promotion in the form of advertising banners in the Bing search engine.',
+                'I had to research Bing Ads API documentation, setup the app on Microsoft Azure, write an auth functionality on Microsoft servers directly from Shopify App and conduct automatic product synchronisation at Microsoft Merchant Center.',
             ],
             'images'        => [
                 [
@@ -292,7 +290,8 @@ return [
                 [
                     'resource'  => 'Shopify App Store',
                     'title'     => 'Foridev - Selling Codes app',
-                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
+                    'link'      => 'https://apps.shopify.com/foridev-selling-codes-app'
+//                    'link'      => 'https://apps.shopify.com/serial-keys-sale-module'
                 ]
             ],
             'handle'        => 'codes',

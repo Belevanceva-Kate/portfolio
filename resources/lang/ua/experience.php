@@ -18,7 +18,8 @@ return [
         'makebecool' => [
             'position'      => 'Back-End Developer',
             'company'       => 'MakeBeCool',
-            'date'          => '07.2020 – 01.2021',
+            'date'          => '07.2020 – теп. час',
+//            'date'          => '07.2020 – 01.2021',
             'description'   => [
                 'Розробка Shopify додатків та тем.',
             ]
