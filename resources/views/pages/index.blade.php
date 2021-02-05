@@ -13,6 +13,7 @@
         @include('components.portfolio')
         @include('components.publications')
         @include('components.conferences')
+        @include('components.courses')
     </main>
 
     @include('components.contact')

@@ -1,0 +1,16 @@
+.courses {
+    &__item {
+        list-style-type: none;
+        padding-top: 5px;
+    }
+
+    &__date {
+        margin-bottom: 10px;
+        opacity: .6;
+        font-size: 0.85rem;
+    }
+
+    &__company {
+        margin-bottom: 10px;
+    }
+}
