@@ -1,7 +1,17 @@
 .courses {
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: -30px;
+    }
+
     &__item {
+        width: 48%;
         list-style-type: none;
         padding-top: 5px;
+        margin-bottom: 30px;
     }
 
     &__date {
@@ -12,5 +22,16 @@
 
     &__company {
         margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width: $landscape-phone) {
+    .courses {
+
+        &__item {
+            width: 100%;
+        }
     }
 }
