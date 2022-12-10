@@ -13,6 +13,7 @@ return [
 
     'title'     => 'Bielievantseva',
     'subtitle'  => 'Kateryna',
-    'content'   => 'Full-Stack Developer'
+    'content'   => 'Shopify Developer'
+    // 'content'   => 'Full-Stack Developer'
 
 ];

@@ -19,7 +19,7 @@ class IndexController extends Controller
         $page           = 'index';
         $contacts       = ['phone', 'email', 'location'];
         $socials        = ['linkedin', 'telegram'];
-        $experience     = ['makebecool', 'foridev', 'ohmycode'];
+        $experience     = ['scrumlaunch_head', 'scrumlaunch_tl', 'scrumlaunch_dev', 'makebecool', 'foridev', 'ohmycode'];
         $education      = ['master', 'bachelor', 'school'];
         $expertise      = ['front-end', 'back-end', 'frameworks', 'platforms', 'graphics_editors', 'bundlers', 'databases', 'languages'];
         $portfolio      = ['shiokfarm', 'muzaara-bing', 'fire-pro', 'portfolio', 'blendtopia', 'codes', 'cannago', 'marketplace-genie'];
